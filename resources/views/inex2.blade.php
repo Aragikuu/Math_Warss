@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,12 @@
     <link rel="icon" type="image/png" href="img/utc-log.png">
     <title>UTC</title>
 </head>
+
 <body>
-    
+
     <main>
 
-        <section class="roulette-container" >
+        <section class="roulette-container">
 
             <div id="selector"></div>
 
@@ -92,7 +94,7 @@
                         <p>Vuelve a grabar</p>
                     </div>
                 </div>
-                
+
             </div>
 
             <div class="button-container">
@@ -106,4 +108,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

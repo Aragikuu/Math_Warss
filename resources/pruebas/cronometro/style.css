@@ -1,0 +1,9 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.timer div:not(:last-child) {
+    margin-right: 0.5rem;
+}

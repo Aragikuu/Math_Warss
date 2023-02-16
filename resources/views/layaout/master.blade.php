@@ -30,5 +30,5 @@
     <script type="text/javascript" src="js/animacionBR.js"></script>
     <!-- fin de los js -->
 </body>
-
+<!-- algebra geometria y trigonometra geometria analitica precalculo estadistica deciptiba -->
 </html>

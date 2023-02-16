@@ -20,117 +20,15 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <center>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <input type="button" value="Girar" onclick="miRuleta.startAnimation();" class="btn btn-warning btn-lg" style="width: 200px;margin-left: 0px;border: 2px solid #FFFFFF;border-radius: 20px;">
-                </center>
-                <br>
-                <br>
-            </div>
-            <div class="col-md-6">
-                <canvas id="canvas" height="600px" width="600px">
-                </canvas>
-            </div>
-        </div>
+        <canvas id="canvas" height="600px" width="600px">
+        </canvas>
     </div>
-
-
-
-    <script>
-        var miRuleta = new Winwheel({
-
-            'numSegments': 5,
-            'outerRadius': 270,
-            'segments': [{
-                    'fillStyle': '#f1c40f',
-                    'text': 'Algebra'
-                },
-                {
-                    'fillStyle': '#e01423',
-                    'text': 'Calculo'
-                },
-                {
-                    'fillStyle': '#23bb23',
-                    'text': 'Pregunta 3'
-                },
-                {
-                    'fillStyle': '#4fa1de',
-                    'text': 'Pregunta 4'
-                },
-                {
-                    'fillStyle': '#8e44ad',
-                    'text': 'Pregunta 5'
-                },
-
-            ],
-            'animation': {
-                'type': 'spinToStop',
-                'duration': 4,
-                'callbackFinished': 'Mensaje()',
-                'callbackAfter': 'dibujarIndicador()'
-            }
-        });
-
-        dibujarIndicador();
-
-        function Mensaje() {
-            var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
-            if (SegmentoSeleccionado.text == "Pregunta 1") {
-                $('#myModal1').modal({
-                    backdrop: 'static'
-                });
-            }
-            if (SegmentoSeleccionado.text == "Pregunta 2") {
-                $('#myModal2').modal({
-                    backdrop: 'static'
-                });
-            }
-            if (SegmentoSeleccionado.text == "Pregunta 3") {
-                $('#myModal3').modal({
-                    backdrop: 'static'
-                });
-            }
-            if (SegmentoSeleccionado.text == "Pregunta 4") {
-                $('#myModal4').modal({
-                    backdrop: 'static'
-                });
-            }
-            if (SegmentoSeleccionado.text == "Pregunta 5") {
-                $('#myModal5').modal({
-                    backdrop: 'static'
-                });
-            }
-
-            miRuleta.stopAnimation(false);
-            miRuleta.rotationAngle = 0;
-            miRuleta.draw();
-            dibujarIndicador();
-        }
-
-        function dibujarIndicador() {
-            var ctx = miRuleta.ctx;
-            ctx.fillStyle = '#1f1f1f';
-            ctx.lineWidth = 0;
-            ctx.beginPath();
-            ctx.moveTo(300, 0);
-            ctx.lineTo(320, 0);
-            ctx.lineTo(300, 40);
-            ctx.lineTo(280, 0);
-            ctx.stroke();
-            ctx.fill();
-        }
-    </script>
-
-
-    <!-- -->
-
-
-
-
+    <button value="Girar" onclick="miRuleta.startAnimation();">
+        Girar
+    </button>
     <!-- *********************** SCRIPTS *********************************-->
     <script src="js/bootstrap.js"></script>
+    <script src="js/master.js"></script>
     <!-- *********************** SCRIPTS *********************************-->
 </body>
 

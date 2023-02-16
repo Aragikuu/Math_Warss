@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::view('index','index');
 Route::view('in2','inex2');
+Route::view('master','layaout.master');

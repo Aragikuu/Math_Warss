@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 Route::view('index','index');
 Route::view('in2','inex2');
+
+Route::view('cat1','Cards.categoria1');
+Route::view('cat2','Cards.categoria2');

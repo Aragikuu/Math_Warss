@@ -12,20 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="img/utc-log.png">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
-<style>
-    body {
-        background: #000000;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    .container {
-        background: rgba(0, 0, 0, 0);
-        width: 100%;
-        height: 624px;
-    }
-</style>
 
 <!--<body style="background-image: url(img/dia.png); background-size: 40% 80%;background-repeat: no-repeat;background-position-y: -8rem;background-position-x: 4rem;">-->
 
@@ -122,9 +111,8 @@
 
         function dibujarIndicador() {
             var ctx = miRuleta.ctx;
-            ctx.strokeStyle = 'navy';
-            ctx.fillStyle = 'black';
-            ctx.lineWidth = 2;
+            ctx.fillStyle = '#1f1f1f';
+            ctx.lineWidth = 0;
             ctx.beginPath();
             ctx.moveTo(300, 0);
             ctx.lineTo(320, 0);

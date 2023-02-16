@@ -9,6 +9,10 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <!-- inicio de los links -->
     <link rel='stylesheet' type='text/css' media='screen' href='css/main2.css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/roulette.css">
+    <link rel="stylesheet" href="css/roulette-rotations.css">
+    <link rel="stylesheet" href="css/roulette-colors.css">
     <!-- fin de los inks -->
 </head>
 
@@ -23,12 +27,14 @@
     </div><!-- fin de la barra de navegacion -->
 
     <div class="contenedor">
-    @yield('contenido')<!-- acapones los contenidos  -->
+        @yield('contenido')<!-- acapones los contenidos  -->
     </div>
     <!-- inico de los js -->
     @yield('script')
     <script type="text/javascript" src="js/animacionBR.js"></script>
+    <script src="js/script.js"></script>
     <!-- fin de los js -->
 </body>
 <!-- algebra geometria y trigonometra geometria analitica precalculo estadistica deciptiba -->
+
 </html>

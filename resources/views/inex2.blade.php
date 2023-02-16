@@ -1,112 +1,97 @@
-<!DOCTYPE html>
-<html lang="es">
+@extends('layaout.master')
+@section('contenido')
+<main>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/roulette.css">
-    <link rel="stylesheet" href="css/roulette-rotations.css">
-    <link rel="stylesheet" href="css/roulette-colors.css">
-    <link rel="icon" type="image/png" href="img/utc-log.png">
-    <title>UTC</title>
-</head>
+    <section class="roulette-container">
 
-<body>
+        <div id="selector"></div>
 
-    <main>
+        <div id="roulette">
 
-        <section class="roulette-container">
-
-            <div id="selector"></div>
-
-            <div id="roulette">
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Borra tu código</p>
-                    </div>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Borra tu código</p>
                 </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Apaga tu compu</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Formatea tu compu</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Compra helado</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Toma un descanso</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>¡Huevo en tu cabeza!</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Tira la laptop</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>$1,00USD a tus suscriptores</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Cómete un snack</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Juega un rato</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>¡Termina tu tarea!</p>
-                    </div>
-                </div>
-
-                <div class="roulette-section">
-                    <div class="roulette-section-container">
-                        <p>Vuelve a grabar</p>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="button-container">
-                <button type="button" id="spin">¡Girar!</button>
-                <button type="button" id="reset">Resetear</button>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Apaga tu compu</p>
+                </div>
             </div>
 
-        </section>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Formatea tu compu</p>
+                </div>
+            </div>
 
-    </main>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Compra helado</p>
+                </div>
+            </div>
 
-    <script src="js/script.js"></script>
-</body>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Toma un descanso</p>
+                </div>
+            </div>
 
-</html>
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>¡Huevo en tu cabeza!</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Tira la laptop</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>$1,00USD a tus suscriptores</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Cómete un snack</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Juega un rato</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>¡Termina tu tarea!</p>
+                </div>
+            </div>
+
+            <div class="roulette-section">
+                <div class="roulette-section-container">
+                    <p>Vuelve a grabar</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="button-container">
+            <button type="button" id="spin">¡Girar!</button>
+            <button type="button" id="reset">Resetear</button>
+        </div>
+
+    </section>
+
+</main>
+
+
+@endsection
+@push('scripts')
+@endpush

@@ -28,7 +28,6 @@
     <!-- inico de los js -->
     @yield('script')
     <script src="js/script.js"></script>
-    <script type="text/javascript" src="js/animacionBR.js"></script>
     <!-- fin de los js -->
 </body>
 <!-- algebra geometria y trigonometra geometria analitica precalculo estadistica deciptiba -->

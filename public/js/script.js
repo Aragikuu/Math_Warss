@@ -1,3 +1,16 @@
+
+// barra navegacion click
+function changColor(color){
+    document.body.style.background = color;
+
+    document.querySelectorAll('span').forEach(function
+    (item){
+        item.classList.remove('active');
+    })
+    event.target.classList.add('active');
+}
+// fin de la barra nacvegacion clik
+//inicon de la ruleta
 const roulette = document.querySelector("#roulette");
 const spinButton = document.querySelector("#spin");
 const resetButton = document.querySelector("#reset");
@@ -35,3 +48,4 @@ resetButton.addEventListener("click", () => {
     resetButton.style.display = "none";
     roulette.numSegments = "5";
 });
+//fin de la ruleta

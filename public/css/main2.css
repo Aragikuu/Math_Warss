@@ -1,21 +1,20 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root
-{
-    --bg-color:#333;
-    --main-color:rgb(205, 205, 205);
+
+:root {
+    --bg-color: #333;
+    --main-color: rgb(205, 205, 205);
 }
-body
-{
+
+body {
     min-height: 100vh;
-    background:#1dd1a1;
+    background: #1dd1a1;
 }
-.color
-{
+
+.color {
     position: absolute;
     left: 0;
     width: 75px;
@@ -27,8 +26,8 @@ body
     flex-direction: column;
     border-right: 3px solid var(--main-color);
 }
-.color span
-{
+
+.color span {
     position: relative;
     width: 30px;
     height: 30px;
@@ -37,13 +36,13 @@ body
     border-radius: 50%;
     cursor: pointer;
 }
-.color span.active
-{
+
+.color span.active {
     border: 3px solid var(--main-color);
 }
-.color span::before
-{
-    content:'';
+
+.color span::before {
+    content: '';
     position: absolute;
     width: 18px;
     height: 18px;
@@ -55,12 +54,12 @@ body
     opacity: 0;
     transition: 0.08s;
 }
-.color span.active::before
-{
+
+.color span.active::before {
     opacity: 1;
 }
 
-.contenedor{
+.contenedor {
     position: absolute;
     width: 95%;
     height: 98%;
@@ -82,7 +81,7 @@ body
 .roulette-container #selector {
     position: absolute;
     top: -20px;
-    left:24%;
+    left: 24%;
     display: inline-block;
     width: 0%;
     height: 0%;
@@ -154,5 +153,173 @@ body
 
 .button-container button#reset {
     display: none;
+}
+
+#roulette .roulette-section:first-child .roulette-section-container {
+    background: #df0978;
+}
+
+#roulette .roulette-section:nth-child(2) .roulette-section-container {
+    background: #8d078d;
+}
+
+#roulette .roulette-section:nth-child(3) .roulette-section-container {
+    background: #3a63ba;
+}
+
+#roulette .roulette-section:nth-child(4) .roulette-section-container {
+    background: #4fa1de;
+}
+
+#roulette .roulette-section:nth-child(5) .roulette-section-container {
+    background: #23bb23;
+}
+
+#roulette .roulette-section:nth-child(6) .roulette-section-container {
+    background: #46b545;
+}
+
+#roulette .roulette-section:nth-child(7) .roulette-section-container {
+    background: #88c740;
+}
+
+#roulette .roulette-section:nth-child(8) .roulette-section-container {
+    background: #f2f215;
+}
+
+#roulette .roulette-section:nth-child(9) .roulette-section-container {
+    background: #f1b041;
+}
+
+#roulette .roulette-section:nth-child(10) .roulette-section-container {
+    background: #e35825;
+}
+
+#roulette .roulette-section:nth-child(11) .roulette-section-container {
+    background: #e01423;
+}
+
+#roulette .roulette-section:nth-child(12) .roulette-section-container {
+    background: #ffae00;
+}
+
+#roulette .roulette-section:first-child {
+    transform: rotate(0deg) skewY(-60deg);
+    -webkit-transform: rotate(0deg) skewY(-60deg);
+    -moz-transform: rotate(0deg) skewY(-60deg);
+    -ms-transform: rotate(0deg) skewY(-60deg);
+    -o-transform: rotate(0deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(2) {
+    transform: rotate(30deg) skewY(-60deg);
+    -webkit-transform: rotate(30deg) skewY(-60deg);
+    -moz-transform: rotate(30deg) skewY(-60deg);
+    -ms-transform: rotate(30deg) skewY(-60deg);
+    -o-transform: rotate(30deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(3) {
+    transform: rotate(60deg) skewY(-60deg);
+    -webkit-transform: rotate(60deg) skewY(-60deg);
+    -moz-transform: rotate(60deg) skewY(-60deg);
+    -ms-transform: rotate(60deg) skewY(-60deg);
+    -o-transform: rotate(60deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(4) {
+    transform: rotate(90deg) skewY(-60deg);
+    -webkit-transform: rotate(90deg) skewY(-60deg);
+    -moz-transform: rotate(90deg) skewY(-60deg);
+    -ms-transform: rotate(90deg) skewY(-60deg);
+    -o-transform: rotate(90deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(5) {
+    transform: rotate(120deg) skewY(-60deg);
+    -webkit-transform: rotate(120deg) skewY(-60deg);
+    -moz-transform: rotate(120deg) skewY(-60deg);
+    -ms-transform: rotate(120deg) skewY(-60deg);
+    -o-transform: rotate(120deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(6) {
+    transform: rotate(150deg) skewY(-60deg);
+    -webkit-transform: rotate(150deg) skewY(-60deg);
+    -moz-transform: rotate(150deg) skewY(-60deg);
+    -ms-transform: rotate(150deg) skewY(-60deg);
+    -o-transform: rotate(150deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(7) {
+    transform: rotate(180deg) skewY(-60deg);
+    -webkit-transform: rotate(180deg) skewY(-60deg);
+    -moz-transform: rotate(180deg) skewY(-60deg);
+    -ms-transform: rotate(180deg) skewY(-60deg);
+    -o-transform: rotate(180deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(8) {
+    transform: rotate(210deg) skewY(-60deg);
+    -webkit-transform: rotate(210deg) skewY(-60deg);
+    -moz-transform: rotate(210deg) skewY(-60deg);
+    -ms-transform: rotate(210deg) skewY(-60deg);
+    -o-transform: rotate(210deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(9) {
+    transform: rotate(240deg) skewY(-60deg);
+    -webkit-transform: rotate(240deg) skewY(-60deg);
+    -moz-transform: rotate(240deg) skewY(-60deg);
+    -ms-transform: rotate(240deg) skewY(-60deg);
+    -o-transform: rotate(240deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(10) {
+    transform: rotate(270deg) skewY(-60deg);
+    -webkit-transform: rotate(270deg) skewY(-60deg);
+    -moz-transform: rotate(270deg) skewY(-60deg);
+    -ms-transform: rotate(270deg) skewY(-60deg);
+    -o-transform: rotate(270deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(11) {
+    transform: rotate(300deg) skewY(-60deg);
+    -webkit-transform: rotate(300deg) skewY(-60deg);
+    -moz-transform: rotate(300deg) skewY(-60deg);
+    -ms-transform: rotate(300deg) skewY(-60deg);
+    -o-transform: rotate(300deg) skewY(-60deg);
+}
+
+#roulette .roulette-section:nth-child(12) {
+    transform: rotate(330deg) skewY(-60deg);
+    -webkit-transform: rotate(330deg) skewY(-60deg);
+    -moz-transform: rotate(330deg) skewY(-60deg);
+    -ms-transform: rotate(330deg) skewY(-60deg);
+    -o-transform: rotate(330deg) skewY(-60deg);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    border: none;
+    outline: none;
+    padding: 15px 100px;
+    background: #2287ed;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background: #28d3ea;
+}
+
+.button-container button:active {
+    background: #28d3ea
 }
 /* fin de la ruleta */

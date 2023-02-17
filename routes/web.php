@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('index','index');
-Route::view('in2','inex2');
 
+Route::view('in2','inex2');
+Route::view('master','layaout.master');
 Route::view('cat1','Cards.categoria1');
 Route::view('cat2','Cards.categoria2');

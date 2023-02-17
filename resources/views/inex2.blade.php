@@ -1,7 +1,5 @@
 @extends('layaout.master')
 @section('contenido')
-<main>
-
     <section class="roulette-container">
 
         <div id="selector"></div>
@@ -88,10 +86,6 @@
         </div>
 
     </section>
-
-</main>
-
-
 @endsection
 @push('scripts')
 @endpush

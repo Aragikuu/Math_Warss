@@ -10,7 +10,6 @@
     <!-- inicio de los links -->
     <link rel='stylesheet' type='text/css' media='screen' href='css/main2.css'>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/roulette.css">
     <link rel="stylesheet" href="css/roulette-rotations.css">
     <link rel="stylesheet" href="css/roulette-colors.css">
     <!-- fin de los inks -->
@@ -31,8 +30,8 @@
     </div>
     <!-- inico de los js -->
     @yield('script')
-    <script type="text/javascript" src="js/animacionBR.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/animacionBR.js"></script>
     <!-- fin de los js -->
 </body>
 <!-- algebra geometria y trigonometra geometria analitica precalculo estadistica deciptiba -->

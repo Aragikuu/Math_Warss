@@ -15,7 +15,7 @@
 <body>
 
     <div class="color"><!-- inico de la barra de navegacion -->
-        <span class="active" style="--clr:#1dd1a1;" onclick="changColor ('#1dd1a1')"></span>
+        <span class="active" style="--clr:#1dd1a1;" onclick="changColor ('#1dd1a1')" ><a href="in2">XX</a></span>
         <span style="--clr:#ff6b6b;" onclick="changColor ('#ff6b6b')"></span>
         <span style="--clr:#2e86de;" onclick="changColor ('#2e86de')"></span>
         <span style="--clr:#f368c0;" onclick="changColor ('#f368c0')"></span>

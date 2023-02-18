@@ -86,7 +86,21 @@
     </div>
 
 </section>
+
 <div class="cuadro">
+    Algebra
+</div>
+<div class="cuadro1">
+    Algebra
+</div>
+
+<div class="cuadro2">
+    Algebra
+</div>
+<div class="cuadro3">
+    Algebra
+</div>
+<div class="cuadro4">
     Algebra
 </div>
 @endsection

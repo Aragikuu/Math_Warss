@@ -326,13 +326,12 @@ body {
 .cuadro{
     width: 200px;
     height: 200px;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-top: -35%;
     background: #1dd1a1;
     border-radius: 20px;
-    padding-top: 60px;
+    padding-top: 80px;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
-
 }

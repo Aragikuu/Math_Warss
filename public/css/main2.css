@@ -340,19 +340,20 @@ body {
     height: 200px;
     margin-left: 73%;
     margin-top: -11.6%;
-    background: #1dd1a1;
+    background: #b6d11d;
     border-radius: 20px;
     padding-top: 80px;
     text-align: center;
     font-size: 30px;
     cursor: pointer;
 }
+
 .cuadro2{
     width: 200px;
     height: 200px;
     margin-left: 45%;
     margin-top: 10%;
-    background: #1dd1a1;
+    background: #d11dc8;
     border-radius: 20px;
     padding-top: 80px;
     text-align: center;
@@ -365,7 +366,7 @@ body {
     height: 200px;
     margin-left: 63%;
     margin-top: -11.6%;
-    background: #1dd1a1;
+    background: #1d3ed1;
     border-radius: 20px;
     padding-top: 80px;
     text-align: center;
@@ -377,7 +378,7 @@ body {
     height: 200px;
     margin-left: 80%;
     margin-top: -11.6%;
-    background: #1dd1a1;
+    background: #d1651d;
     border-radius: 20px;
     padding-top: 80px;
     text-align: center;

@@ -91,17 +91,17 @@
     Algebra
 </div>
 <div class="cuadro1">
-    Algebra
+    Matematicas
 </div>
 
 <div class="cuadro2">
-    Algebra
+    comida
 </div>
 <div class="cuadro3">
-    Algebra
+    sapatos
 </div>
 <div class="cuadro4">
-    Algebra
+    sjjsjsjjs
 </div>
 @endsection
 @push('scripts')

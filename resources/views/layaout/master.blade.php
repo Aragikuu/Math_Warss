@@ -16,10 +16,10 @@
 
     <div class="color"><!-- inico de la barra de navegacion -->
         <span  class="active" style="--clr:#1dd1a1;" onclick="changColor ('#1dd1a1')"></span>
-        <span style="--clr:#ff6b6b;" onclick="changColor ('#ff6b6b')" hreft:'in2'></span>
-        <span style="--clr:#2e86de;" onclick="changColor ('#2e86de')"></span>
-        <span style="--clr:#f368c0;" onclick="changColor ('#f368c0')"></span>
-        <span style="--clr:#ff9f43;" onclick="changColor ('#ff9f43')"></span>
+        <span style="--clr:#ff6b6b;" onclick="changColor ('#ff6b6b')"><a href="in2">O</a></span>
+        <span style="--clr:#2e86de;" onclick="changColor ('#2e86de')"><a href="in2">O</a></span>
+        <span style="--clr:#f368c0;" onclick="changColor ('#f368c0')"><a href="in2">O</a></span>
+        <span style="--clr:#ff9f43;" onclick="changColor ('#ff9f43')"><a href="in2">O</a></span>
     </div><!-- fin de la barra de navegacion -->
 
     <div class="contenedor">

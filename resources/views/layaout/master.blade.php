@@ -1,11 +1,9 @@
 
-@extends('layaout.plantilla')
-@section('contenido')
 <!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset='utf-8'>
+    <meta charset='utf-0'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <link rel="icon" type="image/png" href="img/utc-log.png">
     <title>Plantilla</title>

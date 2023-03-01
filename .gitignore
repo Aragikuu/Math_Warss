@@ -5,3 +5,5 @@
 .env.example
 *.example
 .env.example
+*.example
+.env.example

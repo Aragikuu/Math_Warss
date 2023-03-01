@@ -16,7 +16,7 @@
   --color-background: #f6f6f9;
   /*caombio de modo defauld*/
   --color-white: #202528;
-  --color-info-light: #dce1eb;
+  --color-info-light: #e7e7e7;
   --color-dark: #edeffd;
   --color-background: #181a1e;
   --color-dark-variant: #a3bdcc;
@@ -183,7 +183,7 @@ aside .logo {
 }
 
 aside .logo img {
-  margin-left: 5em;
+  margin-left: 3em;
   width: 4rem;
   height: 4rem;
 }

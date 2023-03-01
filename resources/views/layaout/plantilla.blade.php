@@ -25,7 +25,7 @@
       <div class="top">
         <div class="logo">
           <img src="img/utc-log.png" alt="">
-          <h2>MATH-WARS-<span class="danger">UTC</span></h2>
+          <h2>MATH-<span class="danger">WARS</span></h2>
         </div>
     </aside><!--fin de la barra de navegacion-->
     <main>

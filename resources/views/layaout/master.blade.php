@@ -1,3 +1,6 @@
+
+@extends('layaout.plantilla')
+@section('contenido')
 <!DOCTYPE html>
 <html>
 

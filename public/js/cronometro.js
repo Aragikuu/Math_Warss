@@ -42,3 +42,17 @@ function padNumber(number) {
   // Esta función se utiliza para agregar un 0 delante del número si es menor que 10
   return (number < 10 ? "0" : "") + number;
 }
+
+const rulata = document.querySelector('.rulata');
+const secciones = rulata.querySelectorAll('.seccion');
+
+let posicion = 0;
+
+rulata.addEventListener('wheel', (evento) => {
+  posicion += evento.deltaY;
+  posicion = Math.max(0, Math.min(posicion, secciones.length - 1));
+  rulata.scrollTo({
+    left: secciones[posicion].offsetLeft,
+    behavior: 'smooth'
+  });
+});

@@ -25,7 +25,7 @@
       <div class="top">
         <div class="logo">
           <img src="img/utc-log.png" alt="">
-          <h2>ADM-<span class="danger">UTC</span></h2>
+          <h2>MATH-WARS-<span class="danger">UTC</span></h2>
         </div>
         <div class="close" id="close-btn">
           <span class="material-icons-sharp">
@@ -39,7 +39,29 @@
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
       @yield('contenido')
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
+      <div class="recent-orders">
+    <h2>Equipos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Equipo #1</th>
+                <th>Equipo #2</th>
+                <th>Equipo #3</th>
+                <th>Equipo #4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>10</td>
+                <td>15</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
     </main>
+
     <div class="relog">
             <div class="timer">
                 <div id="hours">00</div>

@@ -267,10 +267,6 @@ aside .sidebar .message-count {
   border-radius: var(--border-radius-1);
 }
 
-main {
-  margin-top: 1.4rem;
-}
-
 main .date {
   display: inline-block;
   background: var(--color-light);
@@ -387,12 +383,11 @@ main .recent-orders {
 
 main .recent-orders h2 {
   margin: 0;
-  margin-top: 3.55em;
   padding: 0.5em;
   margin-bottom: 1.5rem;
   text-align: center;
   background: var(--color-white);
-  width: 128%;
+  width: 101%;
   border-radius: 16px;
   text-align: center;
   box-shadow: var(--box-shadow);
@@ -400,7 +395,7 @@ main .recent-orders h2 {
 
 main .recent-orders table {
   background: var(--color-white);
-  width: 128%;
+  width:101%;
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
   text-align: center;
@@ -873,15 +868,16 @@ main .recent-orders a {
 }
 .relog{
   margin-top: 2em;
-  margin-bottom: 240%;
-  padding-top: 1em;
+  height: 195px;
+  padding-top: 4em;
   color: var(--color-dark);
   border-radius: 4px;
   cursor: pointer;
   background: var(--color-white);
   box-shadow: var(--box-shadow);
-
+  border-radius: 16px;
 }
+
 
 .relog button{
   margin-left: 2.5em;

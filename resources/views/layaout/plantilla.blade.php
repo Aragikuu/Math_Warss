@@ -27,58 +27,52 @@
           <img src="img/utc-log.png" alt="">
           <h2>MATH-WARS-<span class="danger">UTC</span></h2>
         </div>
-        <div class="close" id="close-btn">
-          <span class="material-icons-sharp">
-            close
-          </span>
-        </div>
-      </div>
-
     </aside><!--fin de la barra de navegacion-->
     <main>
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
-      @yield('contenido')
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       <div class="recent-orders">
-    <h2>Equipos</h2>
-    <table>
-        <thead>
+        <h2>Equipos</h2>
+        <table>
+          <thead>
             <tr>
-                <th>Equipo #1</th>
-                <th>Equipo #2</th>
-                <th>Equipo #3</th>
-                <th>Equipo #4</th>
+              <th>Equipo #1</th>
+              <th>Equipo #2</th>
+              <th>Equipo #3</th>
+              <th>Equipo #4</th>
             </tr>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
             <tr>
-                <td>2</td>
-                <td>10</td>
-                <td>15</td>
-                <td>1</td>
+              <td>2</td>
+              <td>10</td>
+              <td>15</td>
+              <td>1</td>
             </tr>
-        </tbody>
-    </table>
-</div>
+          </tbody>
+        </table>
+      </div>
+      @yield('contenido')
     </main>
 
     <div class="relog">
-            <div class="timer">
-                <div id="hours">00</div>
-                <div>:</div>
-                <div id="minutes">00</div>
-                <div>:</div>
-                <div id="seconds">00</div>
-            </div>
+      <div class="timer">
+        <div id="hours">00</div>
+        <div>:</div>
+        <div id="minutes">00</div>
+        <div>:</div>
+        <div id="seconds">00</div>
+      </div>
 
-            <button class="inicio" id="start" onclick="startTimer()">Start</button>
-            <button class="alto" id="stop" onclick="stopTimer()">Stop</button>
-            <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
-        </div>
+      <button class="inicio" id="start" onclick="startTimer()">Start</button>
+      <button class="alto" id="stop" onclick="stopTimer()">Stop</button>
+      <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
+    </div>
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro.js"></script>
   <script src="js/script.js"></script>
 </body>
 @yield('js')
+
 </html>

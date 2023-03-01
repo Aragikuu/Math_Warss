@@ -175,6 +175,7 @@ aside .top {
   align-content: center;
   justify-content: space-between;
   margin-top: 1.4rem;
+  margin-left: 2em;
 }
 
 aside .logo {
@@ -182,10 +183,11 @@ aside .logo {
   gap: 0.8rem;
 }
 
-aside .logo img {
-  margin-left: 3em;
-  width: 4rem;
-  height: 4rem;
+aside .logo img{
+  margin-bottom: 1em;
+  margin-left: 2em;
+  width: 5rem;
+  height: 5rem;
 }
 
 aside .close {
@@ -868,7 +870,7 @@ main .recent-orders a {
 }
 .relog{
   margin-top: 2em;
-  height: 195px;
+  height: 184px;
   padding-top: 4em;
   color: var(--color-dark);
   border-radius: 4px;

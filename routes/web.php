@@ -25,4 +25,6 @@ Route::view('mas','layaout.plantilla');
 Route::view('cardo','Cards.carta_g');
 Route::view('cardo2','Cards.card2_g');
 Route::view('cardo3','Cards.card3_g');
+Route::view('cardo4','Cards.card4_g');
+Route::view('cardo5','Cards.card5_g');
 

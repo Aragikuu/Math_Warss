@@ -1,4 +1,4 @@
-@extends('layaout.master')
+@extends('layaout.plantilla')
 @section('contenido')
 <section class="roulette-container">
 

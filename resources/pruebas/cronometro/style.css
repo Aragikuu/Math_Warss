@@ -1,9 +1,12 @@
 .timer {
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 .timer div:not(:last-child) {
-    margin-right: 0.5rem;
+    margin-right: 0.3rem;
+}
+.relog{
+    background: #858585;
 }

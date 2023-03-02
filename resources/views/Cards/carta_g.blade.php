@@ -1,4 +1,5 @@
 @extends('layaout.plantilla')
+@section('titulo','Categoria 1')
 @section('contenido')
 <div class="scene scene--card">
   <div class="card">

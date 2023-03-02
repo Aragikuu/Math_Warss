@@ -1,7 +1,7 @@
 @extends('layaout.plantilla')
 @section('titulo','Categoria 5')
 @section('contenido')
-
+<div class="cartas">
 <div class="scene scene--card">
   <div class="card">
     <div class="card__face card__face--front">
@@ -40,7 +40,7 @@
     </div>
   </div>
 </div>
-
+</div>
 
 
 

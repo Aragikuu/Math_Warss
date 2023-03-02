@@ -1,5 +1,4 @@
-﻿
-@extends('layaout.plantilla')
+﻿@extends('layaout.plantilla')
 @section('contenido')
 
 @endsection

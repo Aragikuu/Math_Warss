@@ -31,6 +31,6 @@
     <script src="js/script.js"></script>
     <!-- fin de los js -->
 </body>
-<!-- algebra geometria y trigonometra geometria analitica precalculo estadistica deciptiba -->
+<!-- algebra geometria y trigonometra geometria analitica calculo difernical estadistica deciptiba -->
 
 </html>

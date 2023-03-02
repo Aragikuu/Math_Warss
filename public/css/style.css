@@ -44,7 +44,8 @@
   /*caombio de modo defauld*/
   --color-background: #f4f4f8;
   --color-white: #ffffff;
-  --color-dark: #363949;/*color de los titulos*/
+  --color-dark: #363949;
+  /*color de los titulos*/
   --color-dark-variant: #677483;
   --color-dark-variant: #677483;
   --color-light: rgba(132, 139, 200, 0.18);
@@ -71,7 +72,7 @@ body {
   height: 100vh;
   font-family: poppins, sans-serif;
   font-size: 0.88rem;
-  background:  var(--color-background);
+  background: var(--color-background);
   user-select: none;
   overflow-x: hidden;
   color: var(--color-dark);
@@ -81,7 +82,7 @@ body {
   width: 96%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 14rem auto 23rem;
+  grid-template-columns: 14rem auto 8rem;
   gap: 1.8rem;
 }
 
@@ -119,7 +120,7 @@ small {
   font-size: 0.75rem;
 }
 
-main .recent-orders button{
+main .recent-orders button {
   padding: 10px 15px;
   color: var(--color-dark);
   border-radius: 4px;
@@ -183,7 +184,7 @@ aside .logo {
   gap: 0.8rem;
 }
 
-aside .logo img{
+aside .logo img {
   margin-bottom: 1em;
   margin-left: 2em;
   width: 5rem;
@@ -397,7 +398,7 @@ main .recent-orders h2 {
 
 main .recent-orders table {
   background: var(--color-white);
-  width:101%;
+  width: 101%;
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
   text-align: center;
@@ -868,9 +869,12 @@ main .recent-orders a {
 .timer div:not(:last-child) {
   margin-right: 0.3rem;
 }
-.relog{
+
+.relog {
   margin-top: 2em;
+  margin-left: -16em;
   height: 184px;
+  width: 320px;
   padding-top: 4em;
   color: var(--color-dark);
   border-radius: 4px;
@@ -881,40 +885,33 @@ main .recent-orders a {
 }
 
 
-.relog button{
+.relog button {
+  margin-top: 2em;
   margin-left: 2.5em;
   width: 60px;
   height: 30px;
-  cursor: pointer ;
+  cursor: pointer;
   border-radius: 6px;
 }
 
 /*card onclick*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-
 .scene {
-  display: block;
+  display: fixed;
   width: 200px;
+  margin: 20px;
   height: 260px;
-  margin: 40px 0;
   perspective: 600px;
+
 }
 
 .card {
-  position: relative;
+  position: center;
   width: 100%;
   height: 100%;
   cursor: pointer;
   transform-style: preserve-3d;
   transform-origin: center right;
   transition: transform 1s;
-  margin: 20px;
 }
 
 .card.is-flipped {
@@ -943,17 +940,25 @@ main .recent-orders a {
   bottom: 0;
   width: 100%;
   height: 45px;
-  line-height: 45px;
   color: #fff;
   background: rgba(240, 238, 238, 0.4);
   text-align: center;
 }
+
 .card__face--front {
   transform: perspective(600px) rotateY(0deg);
-  box-shadow: 0 5px 10px #ffffff;
+  box-shadow: var(--box-shadow);
 }
 
 .card__face--back {
-  background: slateblue;
+  padding-top: 10px;
+  text-align: center;
+  background: var(--color-white);
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--box-shadow);
   transform: rotateY(180deg);
+}
+
+.cartas {
+  background: #a3bdcc;
 }

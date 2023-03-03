@@ -1,7 +1,7 @@
 @extends('layaout.master')
 @section('contenido')
 <button id="spin">Spin</button>
-	<span class="arrow"></span>
+<span class="arrow"></span>
 <div class="container">
 	<div class="one">1</div>
 	<div class="two">2</div>

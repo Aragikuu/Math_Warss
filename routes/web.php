@@ -18,10 +18,10 @@ Route::get('/', function () {
 });
 Route::view('car','carrusel');
 Route::view('in2','inex2');
-Route::view('master','layaout.master');
+// Route::view('master','layaout.master');
 Route::view('cat1','Cards.categoria1');
 Route::view('cat2','Cards.categoria2');
-Route::view('mas','layaout.plantilla');
+Route::view('master','layaout.plantilla');
 Route::view('cardo','Cards.carta_g');
 Route::view('cardo2','Cards.card2_g');
 Route::view('cardo3','Cards.card3_g');

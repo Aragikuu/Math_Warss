@@ -20,6 +20,6 @@
                     <p>¿que es algebra?</p>
 				</div>
 			</div>
-		</label>	
+		</label>
 	</body>
 </html>

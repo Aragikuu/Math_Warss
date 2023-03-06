@@ -1,0 +1,212 @@
+/*card onclick*/
+.scene {
+    margin-top: 5rem;
+    margin-left:10rem;
+    display: grid ;
+    gap: 10rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    width: 200px;
+    height: 260px;
+    perspective: 600px;
+
+}
+.scene2 {
+    margin-top: -18.6rem;
+    margin-left:50rem;
+    display: grid ;
+    gap: 10rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    width: 200px;
+    height: 260px;
+    perspective: 600px;
+
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform-origin: center right;
+    transition: transform 1s;
+    display: grid;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    box-shadow:  var(--box-shadow);
+}
+
+.card.is-flipped {
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .card__face--front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .card_face--front h3 {
+    position: absolute;
+    align-items: top;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background: rgba(240, 238, 238, 0.4);
+    text-align: center;
+}
+
+.card__face--front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: var(--box-shadow);
+}
+
+.card__face--back {
+    padding-top: 10px;
+    text-align: center;
+    background: var(--color-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    transform: rotateY(180deg);
+}
+
+.cartas {
+    background: #a3bdcc;
+}
+
+/*:::Boton-Modal:::*/
+
+.boton-modal {
+    margin-top: 6rem;
+}
+
+.boton-modal label {
+    padding: 10px 15px;
+    background: var(--color-white);
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.boton-modal label:hover {
+    background-color: #242424;
+    color: #fff;
+}
+
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
+#btn-modal {
+    display: none;
+}
+
+.container-modal {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(87, 87, 87, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal:checked~.container-modal {
+    display: flex;
+}
+
+.content-modal {
+    width: 100%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.content-modal h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #181a1e;
+}
+
+.content-modal p {
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    color: #363949;
+    text-align: center;
+}
+
+.content-modal .btn-cerrar {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-modal .btn-cerrar label {
+    padding: 7px 10px;
+    background-color: #242424;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.content-modal .btn-cerrar label:hover {
+    background-color: #242424;
+}
+
+.cerrar-modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width:800px) {
+    .content-modal {
+        width: 90%;
+    }
+}
+
+.tamaño {
+    font-size: 8em;
+}
+
+.content-modal .btn-respuesta label {
+    padding: 7px 10px;
+    background-color: #242424;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    margin-top: -3rem;
+}
+
+.card{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -21,7 +21,7 @@ var miRuleta = new Winwheel({
 dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
-    alert("Listo para la  " + SegmentoSeleccionado.text);
+    alert("TOCO :  " + SegmentoSeleccionado.text);
     if(SegmentoSeleccionado.text == "Pregunta 1"){
         $('#myModal1').modal({backdrop:'static'});
     }
@@ -56,3 +56,20 @@ function dibujarIndicador() {
     ctx.stroke();
     ctx.fill();
 }
+
+function redireccion(){
+    location.href ="cardo"
+}
+function redireccion2(){
+    location.href ="cardo2"
+}
+function redireccion3(){
+    location.href ="cardo3"
+}
+function redireccion4(){
+    location.href ="cardo4"
+}
+function redireccion5(){
+    location.href ="cardo5"
+}
+

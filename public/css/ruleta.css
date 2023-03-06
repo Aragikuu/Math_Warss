@@ -1,13 +1,84 @@
-.ruleta{
+.ruleta {
 	margin-top: 10rem;
-	margin-left: 15rem;
+	margin-left: -1rem;
 }
 
-.btn{
-	margin-left: 31.6rem;
+.btn {
+	margin-left: 15.6rem;
 	width: 10em;
 	height: 4em;
-	background: #d6d6d6;
+	background: #1d3adf;
 	border-radius: 8px;
+	box-shadow: var(--box-shadow);
+}
+
+
+.container main .cuadro {
+	width: 200px;
+	height: 200px;
+	margin-left: 55%;
+	margin-top: -40%;
+	background: #f1c40f;
+	border-radius: 20px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.container main .cuadro1 {
+	width: 200px;
+	height: 200px;
+	margin-left: 80%;
+	margin-top: -15.2%;
+	background: #2ecc71;
+	border-radius: 20px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.container main .cuadro2 {
+	width: 200px;
+	height: 200px;
+	margin-left: 45%;
+	margin-top: 10%;
+	background: #e67e22;
+	border-radius: 20px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.container main .cuadro3 {
+	width: 200px;
+	height: 200px;
+	margin-left: 68%;
+	margin-top: -15.2%;
+	background: #e74c3c;
+	border-radius: 20px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
+
+.container main .cuadro4 {
+	width: 200px;
+	height: 200px;
+	margin-left: 90%;
+	margin-top: -15.2%;
+	background: #8e44ad;
+	border-radius: 20px;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
 	box-shadow: var(--box-shadow);
 }

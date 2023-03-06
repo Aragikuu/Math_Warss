@@ -6,10 +6,29 @@
 @section('contenido')
 
 <div class="ruleta">
-    <canvas id="canvas" height="600px" width="600px">
-    </canvas>
+    <canvas id="canvas" height="600px" width="600px"></canvas>
 </div>
 <input class="btn" type="button" value="Girar" onclick="miRuleta.startAnimation()">
+
+    <div class="cuadro" onclick="redireccion()">
+        Algebra
+    </div>
+
+    <div class="cuadro1" onclick="redireccion2()">
+        Matematicas
+    </div>
+
+    <div class="cuadro2" onclick="redireccion3()">
+        comida
+    </div>
+
+    <div class="cuadro3" onclick="redireccion4()">
+        sapatos
+    </div>
+
+    <div class="cuadro4" onclick="redireccion5()">
+        sjjsjsjjs
+    </div>
 
 @endsection
 @push('scripts')

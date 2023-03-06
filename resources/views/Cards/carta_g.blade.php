@@ -12,9 +12,15 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Un terreno de forma cuadrada tiene un área de 196 m2. ¿Cuántos metros de tela de alambre tiene que comprar para poder cercar los cuatro lados?</p>
-      <div class="boton-modal">
-        <label for="btn-modal"> Ver </label>
+      
+      <button id="modal1">
+       Abrir
+      </button>
+      <div id="modal_container" class="modal-container">
+        <div class="modal">
+        </div>
       </div>
+
     </div>
   </div>
 
@@ -28,6 +34,15 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Un maestro carpintero y su ayudante trabajaron en una obra por seis días y ganaron $192. El maestro carpintero tiene un salario de $8 más por día que el de su ayudante. ¿Cuánto gana cada uno por día?</p>
+
+      <button id="modal2">
+       Abrir
+      </button>
+      <div id="modal_container" class="modal-container">
+        <div class="modal">
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -133,4 +148,6 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/modal2.js"></script>
 @endpush

@@ -16,9 +16,35 @@
       </div>
     </div>
   </div>
-</div>
 
-<div class="scene scene--card">
+
+
+  <div class="card">
+    <div class="card__face card__face--front">
+      <img src="img/card.png" alt="">
+      <h3>+10</h3>
+    </div>
+    <div class="card__face card__face--back">
+      <h3>Pregunta</h3>
+      <p>¿que es algebra?</p>
+    </div>
+  </div>
+
+
+
+  <div class="card">
+    <div class="card__face card__face--front">
+      <img src="img/card.png" alt="">
+      <h3>+10</h3>
+    </div>
+    <div class="card__face card__face--back">
+      <h3>Pregunta</h3>
+      <p>¿que es algebra?</p>
+    </div>
+  </div>
+
+
+
   <div class="card">
     <div class="card__face card__face--front">
       <img src="img/card.png" alt="">
@@ -30,8 +56,23 @@
     </div>
   </div>
 </div>
+<div class="scene2 scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">
+      <img src="img/card.png" alt="">
+      <h3>+10</h3>
+    </div>
+    <div class="card__face card__face--back">
+      <h3>Pregunta</h3>
+      <p>¿que es algebra?</p>
+      <div class="boton-modal">
+        <label for="btn-modal"> Ver </label>
+      </div>
+    </div>
+  </div>
 
-<div class="scene scene--card">
+
+
   <div class="card">
     <div class="card__face card__face--front">
       <img src="img/card.png" alt="">
@@ -42,9 +83,22 @@
       <p>¿que es algebra?</p>
     </div>
   </div>
-</div>
 
-<div class="scene scene--card">
+
+
+  <div class="card">
+    <div class="card__face card__face--front">
+      <img src="img/card.png" alt="">
+      <h3>+10</h3>
+    </div>
+    <div class="card__face card__face--back">
+      <h3>Pregunta</h3>
+      <p>¿que es algebra?</p>
+    </div>
+  </div>
+
+
+
   <div class="card">
     <div class="card__face card__face--front">
       <img src="img/card.png" alt="">

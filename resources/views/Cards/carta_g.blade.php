@@ -104,7 +104,7 @@
   <div class="card">
     <div class="card__face card__face--front">
       <img src="img/alg.png" alt="">
-      <h3>+35</h3>
+      <h3>+15</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -127,6 +127,7 @@
   </div>
   <label for="btn-modal" class="cerrar-modal"></label>
 </div>
+
 
 
 @endsection

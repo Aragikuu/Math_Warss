@@ -38,13 +38,16 @@
     <div class="recent-orders">
     <table class="">
         <thead>
+            <tr>
             <th>ID</th>
             <th>NOBRE DEL EQUIPO</th>
             <th>PUNTOS</th>
             <th>ACCIONES</th>
+            </tr>
         </thead>
 
         <tbody>
+            <tr>
             @php $i=1; @endphp
             @foreach($equipos as $row)
             <td>{{$i++}}</td>
@@ -63,6 +66,7 @@
                 </button>
                 @endforeach
             </td>
+            </tr>
         </tbody>
     </table>
     </div>

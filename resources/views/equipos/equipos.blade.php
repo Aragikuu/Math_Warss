@@ -1,41 +1,53 @@
 @extends('layaout.plantilla')
 <!-- Aqui es en donde voy a poner los CDN -->
-
+<script src="https://kit.fontawesome.com/714fbe6707.js" crossorigin="anonymous"></script>
 @section('titulo','Equipos')
 @section('contenido')
-            <!-- Aqui va el acordion para agregar equipos -->
-        <div class="barra-despliege">
-        <div class="contenido">
-          <input class="imput" type="radio" name="acc" id="acc1">
-          <label class="label" for="acc1">
-            <h2 class="numero">01</h2>
-            <h3 class="titulo">hola aca pones el titulo</h3>
-          </label>
+<!-- Aqui va el acordion para agregar equipos -->
+<div class="barra-despliege">
+    <div class="contenido">
+        <input class="imput" type="radio" name="acc" id="acc1">
+        <label class="label" for="acc1">
+            <!-- <h2 class="numero">01</h2> -->
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3 class="titulo">Agrega un nuevo equipo</h3>
+        </label>
 
-          <div class="datos">
-                <input type="text">
-          </div>
+        <div class="datos">
+            <!-- aqui va el contenido -->
+            <form id="frmEquipos" action="{{ url('equipos') }}" method="POST">
+            @csrf
+            <input type="text" name="nombre_equipo" placeholder="Nombre del equipo">
+            <input type="number" name="puntos" placeholder="Puntos del equipo">
+
+            <div style="padding-top: 10px;"></div>
+            <button class="btn-agregar">
+            <i class="fa-solid fa-plus"></i>
+            </button>
+            </form>
+            
+            
         </div>
-      </div>
-      <!-- aqui finaliza -->
-<div class="container">
+    </div>
+</div>
+<!-- aqui finaliza -->
 
-        
 
-    <!-- boton de agregar -->
-    <button class="btn-agregar">
-        Agregar
-    </button>
 
-    <table class="recent-orders">
+
+    <div class="recent-orders">
+    <table class="">
         <thead>
+            <tr>
             <th>ID</th>
             <th>NOBRE DEL EQUIPO</th>
             <th>PUNTOS</th>
             <th>ACCIONES</th>
+            </tr>
         </thead>
 
         <tbody>
+            <tr>
             @php $i=1; @endphp
             @foreach($equipos as $row)
             <td>{{$i++}}</td>
@@ -46,17 +58,18 @@
                 <!-- boton de editar -->
                 <button class="btn-editar">
                     <a href=""></a>
-                    Editar
+                    <i class="fa-solid fa-pencil"></i>
                 </button>
                 <!-- boton de eliminar -->
                 <button class="btn-eliminar">
-                    Eliminar
+                <i class="fa-solid fa-trash"></i>
                 </button>
                 @endforeach
             </td>
+            </tr>
         </tbody>
     </table>
-</div>
+    </div>
 @endsection
 @push('scripts')
 @endpush

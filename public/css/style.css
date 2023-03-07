@@ -387,8 +387,9 @@ main .recent-orders h2 {
 }
 
 main .recent-orders table {
+  direction: initial;
   background: var(--color-white);
-  width: 101%;
+  width: 90%;
   border-radius: var(--card-border-radius);
   padding: var(--card-padding);
   text-align: center;
@@ -793,14 +794,15 @@ main .recent-orders a {
 }
 
 .btn-eliminar{
-  width: 4rem;
-  height: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
   color: var(--color-dark);
   border-radius: 4px;
   cursor: pointer;
   background: #ff5555;
   box-shadow: var(--box-shadow);
   text-align: center;
+  align-items: center;
 }
 
 .btn-eliminar:hover{
@@ -812,22 +814,23 @@ main .recent-orders a {
 }
 
 .btn-editar{
-  width: 4rem;
-  height: 2rem;
+  width: 3.5rem;
+  height: 3.5rem;
   color: var(--color-dark);
   border-radius: 4px;
   cursor: pointer;
-  background: #69ff55;
+  background: #e4ca08;
   box-shadow: var(--box-shadow);
   text-align: center;
+  align-items: center;
 }
 
 .btn-editar:hover{
-  background: #2cc518;
+  background: var(--color-danger);
 }
 
 .btn-editar:active{
-  background: #28d411;
+  background: #fdfdfc;
 }
 
 .btn-agregar{

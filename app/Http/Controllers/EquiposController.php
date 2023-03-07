@@ -29,6 +29,9 @@ class EquiposController extends Controller
     public function store(Request $request)
     {
         //
+        $equipo = new Equipos($request->input());
+        $equipo->saveOrFail();
+        return redirect('maestros');
     }
 
     /**
@@ -40,6 +43,8 @@ class EquiposController extends Controller
     public function show($id)
     {
         //
+        $equipo = Equipos::find($id);
+        return view('equipos.editarEquipos',compact('equipo'));
     }
 
     /**
@@ -52,6 +57,9 @@ class EquiposController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $equipo = Equipos::find($id);
+        $equipo->fill($request->input())->saveorFi();
+        return redirect('equipos');
     }
 
     /**
@@ -63,5 +71,8 @@ class EquiposController extends Controller
     public function destroy($id)
     {
         //
+        $equipo = Equipos::find($id);
+        $equipo->delete();
+        return redirect('equipos');
     }
 }

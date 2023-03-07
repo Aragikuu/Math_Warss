@@ -30,13 +30,13 @@
         </div>
     </aside><!--fin de la barra de navegacion-->
     <main>
-      
+
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')
     </main>
 
-    <div class="relog">
+    <!-- <div class="relog">
       <div class="timer">
         <div id="hours">00</div>
         <div>:</div>
@@ -48,13 +48,13 @@
       <button class="inicio" id="start" onclick="startTimer()">Start</button>
       <button class="alto" id="stop" onclick="stopTimer()">Stop</button>
       <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
-    </div>
+    </div> -->
 
 
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro.js"></script>
- 
+
 </body>
 @yield('js')
 

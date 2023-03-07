@@ -28,6 +28,7 @@
 
                 <!-- boton de editar -->
                 <button class="btn-editar">
+                    <a href=""></a>
                     Editar
                 </button>
                 <!-- boton de eliminar -->

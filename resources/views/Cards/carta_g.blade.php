@@ -56,6 +56,7 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>El perímetro de un rectángulo es 34 metros y su área es de 60 m2. ¿Cuánto mide el lado más grande de este rectángulo?</p>
+      <button on:click={showAlert} >Alertaa</button>
     </div>
   </div>
 
@@ -148,6 +149,7 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
+<script src="js/categoria2/alerta.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/modal2.js"></script>
 @endpush

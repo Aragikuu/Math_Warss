@@ -53,7 +53,7 @@
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 @yield('js')
 

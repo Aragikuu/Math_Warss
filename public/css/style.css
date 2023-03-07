@@ -812,6 +812,14 @@ main .recent-orders a {
   text-align: center;
 }
 
+.btn-eliminar:hover{
+  background: #ce2626;
+}
+
+.btn-eliminar:active{
+  background: #bb1919;
+}
+
 .btn-editar{
   width: 4rem;
   height: 2rem;
@@ -823,6 +831,14 @@ main .recent-orders a {
   text-align: center;
 }
 
+.btn-editar:hover{
+  background: #2cc518;
+}
+
+.btn-editar:active{
+  background: #28d411;
+}
+
 .btn-agregar{
   width: 4rem;
   height: 2rem;
@@ -832,4 +848,13 @@ main .recent-orders a {
   background: #559fff;
   box-shadow: var(--box-shadow);
   text-align: center;
+  transition: all 300ms ease;
+}
+
+.btn-agregar:hover{
+  background: #166cdb;
+}
+
+.btn-agregar:active{
+  background: #1a75ec;
 }

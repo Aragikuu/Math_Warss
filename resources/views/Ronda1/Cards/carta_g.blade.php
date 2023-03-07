@@ -131,7 +131,7 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
-<script src="js/categoria2/alerta.js"></script>
+<script src="js/ronda1/algebra.js"></script>
 <script src="js/modal.js"></script>
 <script src="js/modal2.js"></script>
 @endpush

@@ -17,20 +17,31 @@ use App\Http\Controllers\EquiposController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('car','carrusel');
+
 Route::view('in2','inex2');
 // Route::view('master','layaout.master');
 Route::view('cat1','Cards.categoria1');
 Route::view('cat2','Cards.categoria2');
 Route::view('master','layaout.plantilla');
-Route::view('cardo','Cards.carta_g');
-Route::view('cardo2','Cards.card2_g');
-Route::view('cardo3','Cards.card3_g');
-Route::view('cardo4','Cards.card4_g');
-Route::view('cardo5','Cards.card5_g');
+
 Route::view('equipos','contador');
+
+
+//Cartas de la ronda 1
+Route::view('cardo','Ronda1.Cards.carta_g');
+Route::view('cardo2','Ronda1.Cards.card2_g');
+Route::view('cardo3','Ronda1.Cards.card3_g');
+Route::view('cardo4','Ronda1.Cards.card4_g');
+Route::view('cardo5','Ronda1.Cards.card5_g');
+
+//cartas de la ronda 2
+
+//cartas de la ronda 3
 
 
 // AQUI ENRUTARE EL API PARA LOS PUNTOS DE LOS EQUIPOS 
 Route::resource('equipos',EquiposController::class);
+
+//Ruleta
+Route::view('car','Rond1.carrusel');
 

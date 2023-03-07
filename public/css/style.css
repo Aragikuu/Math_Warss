@@ -801,3 +801,35 @@ main .recent-orders a {
   border-radius: 6px;
 }
 
+.btn-eliminar{
+  width: 4rem;
+  height: 2rem;
+  color: var(--color-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  background: #ff5555;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.btn-editar{
+  width: 4rem;
+  height: 2rem;
+  color: var(--color-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  background: #69ff55;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+.btn-agregar{
+  width: 4rem;
+  height: 2rem;
+  color: var(--color-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  background: #559fff;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}

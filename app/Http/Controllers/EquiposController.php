@@ -31,7 +31,7 @@ class EquiposController extends Controller
         //
         $equipo = new Equipos($request->input());
         $equipo->saveOrFail();
-        return redirect('maestros');
+        return redirect('equipos');
     }
 
     /**

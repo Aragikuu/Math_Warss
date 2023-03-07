@@ -52,6 +52,6 @@
         </div>
     </div>
 
-<script src="js/categoria1/cards.js"></script>
+<script src="js/cards.js"></script>
 </body>
 </html>

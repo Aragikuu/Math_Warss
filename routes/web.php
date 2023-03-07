@@ -20,8 +20,8 @@ Route::get('/', function () {
 
 Route::view('in2','inex2');
 // Route::view('master','layaout.master');
-Route::view('cat1','Cards.categoria1');
-Route::view('cat2','Cards.categoria2');
+Route::view('cat1','categoria1');
+Route::view('cat2','categoria2');
 Route::view('master','layaout.plantilla');
 
 Route::view('equipos','contador');

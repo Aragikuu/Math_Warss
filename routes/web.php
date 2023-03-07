@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EquiposController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,4 +29,8 @@ Route::view('cardo3','Cards.card3_g');
 Route::view('cardo4','Cards.card4_g');
 Route::view('cardo5','Cards.card5_g');
 Route::view('equipos','contador');
+
+
+// AQUI ENRUTARE EL API PARA LOS PUNTOS DE LOS EQUIPOS 
+Route::resource('equipos',EquiposController::class);
 

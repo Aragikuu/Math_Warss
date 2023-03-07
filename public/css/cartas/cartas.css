@@ -63,7 +63,7 @@
 
 .card .card_face--front h3 {
     position: absolute;
-    align-items: top;
+    align-items: top;   
     width: 100%;
     height: 45px;
     color: #fff;
@@ -105,7 +105,7 @@
 }
 
 .boton-modal label:hover {
-    background-color: #242424;
+    background-color: #ffffff;
     color: #fff;
 }
 

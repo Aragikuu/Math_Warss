@@ -9,6 +9,7 @@
   @yield('css')
   <title>UTC</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <!--de esta pagina toman los iconos https://fonts.google.com/icons?icon.platform=web&icon.set=Material+Icons&icon.style=Sharp
    los iconos tienen que ser icon y sharp para que tomen las propiedades de la pagina lo que tienen que copiar es (images/loque se copea.png)
   si quieren probar cualquier icono la sintaxis es
@@ -64,7 +65,7 @@
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro.js"></script>
-
+ 
 </body>
 @yield('js')
 

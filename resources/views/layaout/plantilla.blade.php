@@ -30,18 +30,7 @@
         </div>
     </aside><!--fin de la barra de navegacion-->
     <main>
-      <div class="barra-despliege">
-        <div class="contenido">
-          <input class="imput" type="radio" name="acc" id="acc1">
-          <label class="label" for="acc1">
-            <h2 class="numero">01</h2>
-            <h3 class="titulo">hola aca pones el titulo</h3>
-          </label>
-          <div class="datos">
-            ACA PONES EL CONTENIDO
-          </div>
-        </div>
-      </div>
+      
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')

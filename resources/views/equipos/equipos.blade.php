@@ -3,7 +3,24 @@
 
 @section('titulo','Equipos')
 @section('contenido')
+            <!-- Aqui va el acordion para agregar equipos -->
+        <div class="barra-despliege">
+        <div class="contenido">
+          <input class="imput" type="radio" name="acc" id="acc1">
+          <label class="label" for="acc1">
+            <h2 class="numero">01</h2>
+            <h3 class="titulo">hola aca pones el titulo</h3>
+          </label>
+
+          <div class="datos">
+                <input type="text">
+          </div>
+        </div>
+      </div>
+      <!-- aqui finaliza -->
 <div class="container">
+
+        
 
     <!-- boton de agregar -->
     <button class="btn-agregar">

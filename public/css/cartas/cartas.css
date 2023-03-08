@@ -41,8 +41,9 @@
     cursor: pointer;
 }
 
-.card:hover{
-   width: 300%;
+.card__face--back:hover{
+   width: 260%;
+   height: 130%;
 }
 
 

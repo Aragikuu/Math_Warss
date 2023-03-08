@@ -1,6 +1,6 @@
 @extends('layaout.plantilla')
 <link rel="stylesheet" href="css/cartas/cartas.css">
-@section('titulo','Algebra')
+@section('titulo','algebra')
 @section('contenido')
 
 <div class="scene scene--card">
@@ -27,8 +27,9 @@
       <button onclick="modal2()">Abrir</button>
     </div>
   </div>
+</div>
 
-
+<div class="scene2 scene--card">
   <div class="card">
     <div class="card__face card__face--front">
       <h3>+10</h3>

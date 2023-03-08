@@ -4,7 +4,9 @@
 @section('contenido')
 <div class="marco">
     <div class="contenedor">
-        <p class="titulo">Equipo #1</p>
+        @php $i=1; @endphp
+        @foreach($contadores as $row)
+        <p class="titulo" name="nombre_equipo">{{$row->nombre_equipo}}</p>
         <p class="contar" id="contar">0</p>
 
         <div class="botones">
@@ -20,6 +22,8 @@
         </div>
 
     </div>
+    @endforeach
+    <!-- aqui finaliza el contenedor del contador -->
 
     <div class="contenedor">
         <p class="titulo">Equipo #2</p>

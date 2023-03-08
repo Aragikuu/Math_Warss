@@ -6,8 +6,8 @@
 <!-- Aqui va el acordion para agregar equipos -->
 <div class="barra-despliege">
     <div class="contenido">
-        <input class="imput" type="radio" name="acc" id="acc1">
-        <label class="label" for="acc1">
+        <input class="imput" type="radio" name="acc" id="acc1" required>
+        <label class="label" for="acc1" required>
             <!-- <h2 class="numero">01</h2> -->
             <i class="fa-solid fa-graduation-cap"></i>
             <h3 class="titulo">Agrega un nuevo equipo</h3>
@@ -54,11 +54,12 @@
                 <td>{{$row->puntos}}</td>
                 <td>
                     <!-- boton de editar -->
+                    <a href=" {{ url('equipos',[$row]) }}" class="btn-editar">
                     <button class="btn-editar">
-                        <a href=" {{ url('equipos',[$row]) }}">
+                        
                             <i class="fa-solid fa-pencil"></i>
-                        </a>
                     </button>
+                    </a>
                     <!-- boton de eliminar -->
                     <form method="POST" action="{{ url('equipos',[$row] )}}">
                         @method("delete")

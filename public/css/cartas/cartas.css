@@ -218,17 +218,3 @@
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
 }
-
-.container main .cuadro {
-	width: 200px;
-	height: 200px;
-	margin-left: 68%;
-	margin-top: -15.2%;
-	background: #e74c3c;
-	border-radius: 20px;
-	padding-top: 80px;
-	text-align: center;
-	font-size: 30px;
-	cursor: pointer;
-    box-shadow: var(--box-shadow);
-}

@@ -17,10 +17,8 @@
             <!-- aqui va el contenido -->
             <form id="frmEquipos" action="{{ url('equipos') }}" method="POST">
                 @csrf
-                <input type="text" name="nombre_equipo" placeholder="Nombre del equipo">
-                <input type="number" name="puntos" placeholder="Puntos del equipo">
-
-                <div style="padding-top: 10px;"></div>
+                <input class="imput" type="text" name="nombre_equipo" placeholder="Nombre del equipo"><br>
+                <input class="imput" type="number" name="puntos" placeholder="Puntos del equipo"><br>
                 <button class="btn-agregar">
                     <i class="fa-solid fa-plus"></i>
                 </button>

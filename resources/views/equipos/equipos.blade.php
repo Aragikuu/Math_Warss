@@ -45,20 +45,18 @@
                 <th>ACCIONES</th>
             </tr>
         </thead>
-
         <tbody>
+            @php $i=1; @endphp
+            @foreach($equipos as $row)
             <tr>
-                @php $i=1; @endphp
-                @foreach($equipos as $row)
                 <td>{{$i++}}</td>
                 <td>{{$row->nombre_equipo}}</td>
                 <td>{{$row->puntos}}</td>
                 <td>
-
                     <!-- boton de editar -->
                     <button class="btn-editar">
                         <a href=" {{ url('equipos',[$row]) }}">
-                        <i class="fa-solid fa-pencil"></i>
+                            <i class="fa-solid fa-pencil"></i>
                         </a>
                     </button>
                     <!-- boton de eliminar -->
@@ -69,10 +67,9 @@
                             <i class="fa-solid fa-trash"></i>
                         </button>
                     </form>
-
-                    @endforeach
                 </td>
             </tr>
+            @endforeach
         </tbody>
     </table>
 </div>

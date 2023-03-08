@@ -6,11 +6,10 @@
 <!-- Aqui va el acordion para agregar equipos -->
 <div class="barra-despliege">
     <div class="contenido">
-        <input class="imput" type="radio" name="acc" id="acc1" required>
+        <input style="--clr:#6eff3e" class="imput" type="radio" name="acc" id="acc1" required>
         <label class="label" for="acc1" required>
             <!-- <h2 class="numero">01</h2> -->
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h3 class="titulo">Agrega un nuevo equipo</h3>
+            <h3 class="titulo"><i class="fa-solid fa-graduation-cap"></i>Agrega un nuevo equipo</h3>
         </label>
 
         <div class="datos">
@@ -18,7 +17,7 @@
             <form id="frmContador" action="{{ url('contadores') }}" method="POST">
                 @csrf
                 <input type="text" class="input" name="nombre_equipo" placeholder="Nombre del equipo">
-                
+
 
                 <div style="padding-top: 10px;"></div>
                 <button class="btn-agregar">
@@ -32,10 +31,10 @@
 </div>
 <!-- aqui finaliza -->
 <div class="marco">
-        @php $i=1; @endphp
-        @foreach($contadores as $row)
+    @php $i=1; @endphp
+    @foreach($contadores as $row)
     <div class="contenedor">
-        
+
         <p class="titulo" name="nombre_equipo">{{$row->nombre_equipo}}</p>
         <input type="text" class="input" name="puntos" value="{{$row->puntos}}">
 
@@ -52,12 +51,9 @@
         </div>
 
     </div>
-        @endforeach
+    @endforeach
     <!-- aqui finaliza el contenedor del contador -->
-
-   
-
-    </div>
+</div>
 
 @endsection
 @push('scripts')

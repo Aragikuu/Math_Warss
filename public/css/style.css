@@ -897,14 +897,38 @@ main .recent-orders a {
 }
 
 .input{
+  margin-top: 36px;
   appearance: none;
-  height: 25px;
+  height: 40px;
+  width: 20rem;
   padding: 4px;
   margin-bottom: 20px;
   box-shadow:none;
-  letter-spacing: 0.18em;
-  box-shadow: 0 0 30px var(--clr);
+  border-radius: 5px;
 }
+
+.input:hover {
+  letter-spacing: 0.18em;
+  box-shadow: 0 0 25px #e4ca08;
+}
+
+.input2{
+  margin-top: 36px;
+  appearance: none;
+  height: 40px;
+  width: 20rem;
+  padding: 4px;
+  margin-bottom: 20px;
+  box-shadow:none;
+  border-radius: 5px;
+}
+
+.input2:hover {
+  letter-spacing: 0.18em;
+  box-shadow: 0 0 25px #089ee4;
+}
+
+
 .label{
   display: flex;
   align-items: center;
@@ -946,7 +970,7 @@ main .recent-orders a {
   font-weight: 500;
   color: #ebebeb;
   z-index: 10;
-  margin-left: 1rem;
+  margin-left: 32rem;
 }
 
 .datos{

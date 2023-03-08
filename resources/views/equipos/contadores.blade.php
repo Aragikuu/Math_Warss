@@ -18,7 +18,7 @@
             <form id="frmContador" action="{{ url('contadores') }}" method="POST">
                 @csrf
                 <input type="text" class="input" name="nombre_equipo" placeholder="Nombre del equipo">
-                <input type="number" class="input" name="puntos" placeholder="Puntos del equipo">
+                
 
                 <div style="padding-top: 10px;"></div>
                 <button class="btn-agregar">
@@ -37,7 +37,7 @@
     <div class="contenedor">
         
         <p class="titulo" name="nombre_equipo">{{$row->nombre_equipo}}</p>
-        <p class="contar" id="contar" name="puntos">{{$row->puntos}}</p>
+        <input type="text" class="input" name="puntos" value="{{$row->puntos}}">
 
         <div class="botones">
             <btn class="incr" id="incr">

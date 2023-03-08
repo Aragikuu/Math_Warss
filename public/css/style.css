@@ -387,7 +387,6 @@ main .recent-orders h2 {
 }
 
 main .recent-orders table {
-  direction: initial;
   background: var(--color-white);
   width: 90%;
   border-radius: var(--card-border-radius);

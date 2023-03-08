@@ -10,8 +10,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Se suelta un globo de observación en un punto a 10 kilómetros de la estación que recibe su señal y se eleva verticalmente como se indica en la figura. Expresa la distancia 𝑑(ℎ) entre el globo y la estación de recepción como una función de la altitud ℎ del globo.</p>
-      
+      <p>¿La siguiente gráfica representa una función?</p>
       <button onclick="modal1()">Abrir</button>
     </div>
   </div>
@@ -22,11 +21,9 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Determinar el rango de la función</p>
+      <p>Determina el dominio de la siguiente función</p>
       <p>
-        $$
-        f(x)=〖2x〗^2
-        $$
+        $$ f(x)=(x^3-2x^2)/(x-2) $$
       </p>
       <button onclick="modal2()">Abrir</button>
     </div>
@@ -40,11 +37,9 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Calcular el límite </p>
+      <p>Calcular el límite</p>
       <p>
-      $$  
-      lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
-      $$
+        $$ lim┬(x→1)⁡〖(x^3-1)/(x-1)〗 $$
       </p>
       <button onclick="modal3()">Abrir</button>
     </div>
@@ -56,11 +51,10 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Calcular f´(x) si</p>
+      <p>	Calcular $$ f'(a) $$ para la siguiente función</p>
       <p>
-        $$
-        f(x)=6√x+1/√x
-        $$
+        $$ f(x)=3x^2+4x+2 $$
+        $$ a=-1 $$
       </p>
       <button onclick="modal4()">Abrir</button>
     </div>
@@ -69,5 +63,5 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
-<script src="js/ronda1/calculo.js"></script>
+<script src="js/ronda2/calculo2.js"></script>
 @endpush

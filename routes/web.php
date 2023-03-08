@@ -36,6 +36,11 @@ Route::view('cardo4','Ronda1.Cards.card4_g');
 Route::view('cardo5','Ronda1.Cards.card5_g');
 
 //cartas de la ronda 2
+Route::view('cardo1_2','Ronda2.Cards.carta_g2');
+Route::view('cardo2_2','Ronda2.Cards.card2_g2');
+Route::view('cardo3_2','Ronda2.Cards.card3_g2');
+Route::view('cardo4_2','Ronda2.Cards.card4_g2');
+Route::view('cardo5_2','Ronda2.Cards.card5_g2');
 
 //cartas de la ronda 3
 
@@ -48,4 +53,5 @@ Route::resource('contadores',ContadorController::class);
 
 //Ruleta
 Route::view('car','Ronda1.carrusel');
+Route::view('car2','Ronda2.carrusel2');
 

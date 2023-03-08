@@ -23,7 +23,11 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Determinar el rango de la función</p>
-      <p>f(x)=〖2x〗^2</p>
+      <p>
+        $$
+        f(x)=〖2x〗^2
+        $$
+      </p>
       <button onclick="modal2()">Abrir</button>
     </div>
   </div>
@@ -37,7 +41,11 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Calcular el límite </p>
-      <p>lim┬(x→7)⁡〖(x^2-49)/(x-7)〗</p>
+      <p>
+      $$  
+      lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
+      $$
+      </p>
       <button onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -49,7 +57,11 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Calcular f´(x) si</p>
-      <p>f(x)=6√x+1/√x</p>
+      <p>
+        $$
+        f(x)=6√x+1/√x
+        $$
+      </p>
       <button onclick="modal4()">Abrir</button>
     </div>
   </div>

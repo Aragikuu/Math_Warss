@@ -58,7 +58,7 @@ class EquiposController extends Controller
     {
         //
         $equipo = Equipos::find($id);
-        $equipo->fill($request->input())->saveorFi();
+        $equipo->fill($request->input())->saveOrFail();
         return redirect('equipos');
     }
 

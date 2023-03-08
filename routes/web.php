@@ -41,6 +41,7 @@ Route::view('cardo5','Ronda1.Cards.card5_g');
 
 // AQUI ENRUTARE EL API PARA LOS PUNTOS DE LOS EQUIPOS 
 Route::resource('equipos',EquiposController::class);
+Route::view('editarEquipo','equipos.editarEquipos');
 
 //Ruleta
 Route::view('car','Rond1.carrusel');

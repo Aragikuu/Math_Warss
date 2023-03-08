@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContadorController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EquiposController;
 
@@ -24,7 +25,7 @@ Route::view('cat1','categoria1');
 Route::view('cat2','categoria2');
 Route::view('master','layaout.plantilla');
 
-Route::view('equipos','contador');
+Route::view('equipos2','contador');
 
 
 //Cartas de la ronda 1
@@ -42,6 +43,8 @@ Route::view('cardo5','Ronda1.Cards.card5_g');
 // AQUI ENRUTARE EL API PARA LOS PUNTOS DE LOS EQUIPOS 
 Route::resource('equipos',EquiposController::class);
 Route::view('editarEquipo','equipos.editarEquipos');
+
+Route::resource('contadores',ContadorController::class);
 
 //Ruleta
 Route::view('car','Ronda1.carrusel');

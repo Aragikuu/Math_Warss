@@ -73,3 +73,19 @@ function redireccion5(){
     location.href ="cardo5"
 }
 
+//ronda 2
+function redireccion1_2(){
+    location.href ="cardo"
+}
+function redireccion2_2(){
+    location.href ="cardo2"
+}
+function redireccion3_2(){
+    location.href ="cardo3"
+}
+function redireccion4_2(){
+    location.href ="cardo4"
+}
+function redireccion5_2(){
+    location.href ="cardo5"
+}

@@ -11,7 +11,7 @@
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
       <p>Se suelta un globo de observación en un punto a 10 kilómetros de la estación que recibe su señal y se eleva verticalmente como se indica en la figura. Expresa la distancia 𝑑(ℎ) entre el globo y la estación de recepción como una función de la altitud ℎ del globo.</p>
-      <img src="img/Ronda1/calculoD1.png" alt="">
+      
       <button onclick="modal1()">Abrir</button>
     </div>
   </div>

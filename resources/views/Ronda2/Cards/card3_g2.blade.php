@@ -10,7 +10,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>El tobogán de un parque mide 2.9 m y forma un ángulo de 40° con el suelo. ¿Qué altura (X), tendrá la escalerilla?</p>
+      <p>María y Pedro se encuentran a ambos lados de la orilla de un río en los puntos A y B. ¿Qué anchura tiene el río?</p>
       <button onclick="modal1()">Abrir</button>
     </div>
   </div>
@@ -21,7 +21,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Se quiere fijar una antena con un cable, a 1.5m de su base y con un ángulo de 42°, ¿Cuál será la longitud del cable? </p>
+      <p>Halla el área comprendida entre un pentágono regular de 20 cm de perímetro y su circunferencia circunscrita.</p>
       <button onclick="modal2()">Abrir</button>
     </div>
   </div>
@@ -34,9 +34,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Los lados de un paralelogramo forman un ángulo de 70°. Sus medidas son 7 y 8 cm. 
-        Calcula: a) La longitud de la diagonal menor, b) el área del paralelogramo
-      </p>
+      <p>En un triángulo rectángulo, los catetos miden 6 y 8 cm. Calcula la medida de la altura sobre la hipotenusa y la distancia desde su pie hasta los extremos.</p>
       <button onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -47,7 +45,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
-      <p>Utilizando identidades trigonométricas encuentra a que identidad corresponde la siguiente expresión:</p>
+      <p>Dos edificios distan entre sí 150 m. Desde un punto que está entre los dos edificios, las visuales a los puntos más altos de éstos forman con la horizontal ángulos de 35° y 20°, respectivamente. Halla la altura de los edificios, si sabemos que los dos miden lo mismo.</p>
       <button onclick="modal4()">Abrir</button>
     </div>
   </div>
@@ -55,5 +53,5 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
-<script src="js/ronda1/geo_trigo.js"></script>
+<script src="js/ronda2/geo_trigo2.js"></script>
 @endpush

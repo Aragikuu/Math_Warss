@@ -218,3 +218,10 @@
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.puntos{
+    padding-top: 8rem;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+}

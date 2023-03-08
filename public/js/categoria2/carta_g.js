@@ -5,3 +5,8 @@ var cards = document.querySelectorAll('.card');
     card.classList.toggle('is-flipped');
   });
 });
+
+function redireccion(){
+  location.href ="cardo2"
+}
+

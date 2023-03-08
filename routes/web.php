@@ -44,5 +44,5 @@ Route::resource('equipos',EquiposController::class);
 Route::view('editarEquipo','equipos.editarEquipos');
 
 //Ruleta
-Route::view('car','Rond1.carrusel');
+Route::view('car','Ronda1.carrusel');
 

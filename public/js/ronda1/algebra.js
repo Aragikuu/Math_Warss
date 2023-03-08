@@ -7,9 +7,9 @@ function modal2(){
 }
 
 function modal3(){
-    swal("Respuesta: ", "14 años", "success");
+    swal("Respuesta: ", "12 m", "success");
 }
 
 function modal4(){
-    swal("Respuesta: ", "30/√2=15√2", "success");
+    swal("Respuesta: ", "9", "success");
 }

@@ -38,7 +38,15 @@
     background: var(--color-white);
     border-radius: var(--card-border-radius);
     box-shadow:  var(--box-shadow);
+    cursor: pointer;
 }
+
+.card__face--back:hover{
+   width: 260%;
+   height: 130%;
+}
+
+
 
 .card.is-flipped {
     transform: translateX(-100%) rotateY(-180deg);
@@ -63,7 +71,7 @@
 
 .card .card_face--front h3 {
     position: absolute;
-    align-items: top;   
+    align-items: top;
     width: 100%;
     height: 45px;
     color: #fff;

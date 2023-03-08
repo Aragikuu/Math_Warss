@@ -6,8 +6,8 @@
 <!-- Aqui va el acordion para agregar equipos -->
 <div class="barra-despliege">
     <div class="contenido">
-        <input class="imput" type="radio" name="acc" id="acc1">
-        <label class="label" for="acc1">
+        <input class="imput" type="radio" name="acc" id="acc1" required>
+        <label class="label" for="acc1" required>
             <!-- <h2 class="numero">01</h2> -->
             <i class="fa-solid fa-graduation-cap"></i>
             <h3 class="titulo">Agrega un nuevo equipo</h3>
@@ -16,60 +16,57 @@
         <div class="datos">
             <!-- aqui va el contenido -->
             <form id="frmEquipos" action="{{ url('equipos') }}" method="POST">
-            @csrf
-            <input type="text" name="nombre_equipo" placeholder="Nombre del equipo">
-            <input type="number" name="puntos" placeholder="Puntos del equipo">
-
-            <div style="padding-top: 10px;"></div>
-            <button class="btn-agregar">
-            <i class="fa-solid fa-plus"></i>
-            </button>
+                @csrf
+                <input class="imput" type="text" name="nombre_equipo" placeholder="Nombre del equipo"><br>
+                <input class="imput" type="number" name="puntos" placeholder="Puntos del equipo"><br>
+                <button class="btn-agregar">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
             </form>
-            
-            
         </div>
     </div>
 </div>
 <!-- aqui finaliza -->
 
-
-
-
-    <div class="recent-orders">
+<div class="recent-orders">
     <table class="">
         <thead>
             <tr>
-            <th>ID</th>
-            <th>NOBRE DEL EQUIPO</th>
-            <th>PUNTOS</th>
-            <th>ACCIONES</th>
+                <th>ID</th>
+                <th>NOBRE DEL EQUIPO</th>
+                <th>PUNTOS</th>
+                <th>ACCIONES</th>
             </tr>
         </thead>
-
         <tbody>
-            <tr>
             @php $i=1; @endphp
             @foreach($equipos as $row)
-            <td>{{$i++}}</td>
-            <td>{{$row->nombre_equipo}}</td>
-            <td>{{$row->puntos}}</td>
-            <td>
-
-                <!-- boton de editar -->
-                <button class="btn-editar">
-                    <a href=""></a>
-                    <i class="fa-solid fa-pencil"></i>
-                </button>
-                <!-- boton de eliminar -->
-                <button class="btn-eliminar">
-                <i class="fa-solid fa-trash"></i>
-                </button>
-                @endforeach
-            </td>
+            <tr>
+                <td>{{$i++}}</td>
+                <td>{{$row->nombre_equipo}}</td>
+                <td>{{$row->puntos}}</td>
+                <td>
+                    <!-- boton de editar -->
+                    <a href=" {{ url('equipos',[$row]) }}" class="btn-editar">
+                    <button class="btn-editar">
+                        
+                            <i class="fa-solid fa-pencil"></i>
+                    </button>
+                    </a>
+                    <!-- boton de eliminar -->
+                    <form method="POST" action="{{ url('equipos',[$row] )}}">
+                        @method("delete")
+                        @csrf
+                        <button class="btn-eliminar">
+                            <i class="fa-solid fa-trash"></i>
+                        </button>
+                    </form>
+                </td>
             </tr>
+            @endforeach
         </tbody>
     </table>
-    </div>
+</div>
 @endsection
 @push('scripts')
 @endpush

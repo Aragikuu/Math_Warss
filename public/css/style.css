@@ -387,7 +387,6 @@ main .recent-orders h2 {
 }
 
 main .recent-orders table {
-  direction: initial;
   background: var(--color-white);
   width: 90%;
   border-radius: var(--card-border-radius);
@@ -834,6 +833,7 @@ main .recent-orders a {
 }
 
 .btn-agregar{
+  margin-left: 10px;
   width: 4rem;
   height: 2rem;
   color: var(--color-dark);
@@ -854,8 +854,8 @@ main .recent-orders a {
 }
 
 .barra-despliege{
-  margin: 0 40px;
-  max-width: 800px;
+  margin-top: 20px;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -869,10 +869,15 @@ main .recent-orders a {
   border-radius: 20px;
   overflow: hidden;
   padding: 1rem;
+  align-items: center;
+  text-align: center;
 }
 
 .imput{
   appearance: none;
+  height: 25px;
+  padding: 4px;
+  margin-bottom: 20px;
 }
 
 .label{
@@ -924,6 +929,7 @@ main .recent-orders a {
   max-height: 0;
   transition: 1s;
   overflow: hidden;
+  align-items: center;
 }
 
 .imput:checked ~ .datos{

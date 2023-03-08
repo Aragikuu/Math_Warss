@@ -15,7 +15,7 @@ class Equipos extends Model
     protected $primaryKey = "id";
     protected $fillable=[
         'id',
-        'nombre_equipos',
+        'nombre_equipo',
         'puntos'        
     ];
 }

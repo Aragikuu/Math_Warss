@@ -901,15 +901,10 @@ main .recent-orders a {
   height: 25px;
   padding: 4px;
   margin-bottom: 20px;
+  box-shadow:none;
+  letter-spacing: 0.18em;
+  box-shadow: 0 0 30px var(--clr);
 }
-
-.input:active{
-  appearance: none;
-  height: 25px;
-  padding: 4px;
-  margin-bottom: 20px;
-}
-
 .label{
   display: flex;
   align-items: center;

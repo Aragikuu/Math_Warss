@@ -25,15 +25,10 @@
                     <i class="fa-solid fa-plus"></i>
                 </button>
             </form>
-
-
         </div>
     </div>
 </div>
 <!-- aqui finaliza -->
-
-
-
 
 <div class="recent-orders">
     <table class="">

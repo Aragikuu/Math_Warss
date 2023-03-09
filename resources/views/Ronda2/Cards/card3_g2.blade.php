@@ -9,9 +9,9 @@
       <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
-      <h3>Pregunta</h3>
-      <p>María y Pedro se encuentran a ambos lados de la orilla de un río en los puntos A y B. ¿Qué anchura tiene el río?</p>
-      <button onclick="modal1()">Abrir</button>
+      <h3 class="preguntas">Pregunta</h3>
+      <p class="texto_pregunta">María y Pedro se encuentran a ambos lados de la orilla de un río en los puntos A y B. ¿Qué anchura tiene el río?</p>
+      <button class="btn-blanco" onclick="modal1()">Abrir</button>
     </div>
   </div>
 
@@ -20,9 +20,9 @@
       <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
-      <h3>Pregunta</h3>
-      <p>Halla el área comprendida entre un pentágono regular de 20 cm de perímetro y su circunferencia circunscrita.</p>
-      <button onclick="modal2()">Abrir</button>
+      <h3 class="preguntas">Pregunta</h3>
+      <p class="texto_pregunta">Halla el área comprendida entre un pentágono regular de 20 cm de perímetro y su circunferencia circunscrita.</p>
+      <button class="btn-blanco" onclick="modal2()">Abrir</button>
     </div>
   </div>
 </div>
@@ -33,9 +33,9 @@
       <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
-      <h3>Pregunta</h3>
-      <p>En un triángulo rectángulo, los catetos miden 6 y 8 cm. Calcula la medida de la altura sobre la hipotenusa y la distancia desde su pie hasta los extremos.</p>
-      <button onclick="modal3()">Abrir</button>
+      <h3 class="preguntas">Pregunta</h3>
+      <p class="texto_pregunta">En un triángulo rectángulo, los catetos miden 6 y 8 cm. Calcula la medida de la altura sobre la hipotenusa y la distancia desde su pie hasta los extremos.</p>
+      <button class="btn-blanco" onclick="modal3()">Abrir</button>
     </div>
   </div>
 

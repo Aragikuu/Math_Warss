@@ -43,7 +43,11 @@ Route::view('cardo4_2','Ronda2.Cards.card4_g2');
 Route::view('cardo5_2','Ronda2.Cards.card5_g2');
 
 //cartas de la ronda 3
-
+Route::view('cardo1_3','RondaF.Cards.carta_g3');
+Route::view('cardo2_3','RondaF.Cards.card2_g3');
+Route::view('cardo3_3','RondaF.Cards.card3_g3');
+Route::view('cardo4_3','RondaF.Cards.card4_g3');
+Route::view('cardo5_3','RondaF.Cards.card5_g3');
 
 // AQUI ENRUTARE EL API PARA LOS PUNTOS DE LOS EQUIPOS 
 Route::resource('equipos',EquiposController::class);

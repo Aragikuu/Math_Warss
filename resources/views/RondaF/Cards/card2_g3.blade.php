@@ -10,7 +10,9 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Se suelta un globo de observación en un punto a 10 kilómetros de la estación que recibe su señal y se eleva verticalmente como se indica en la figura. Expresa la distancia 𝑑(ℎ) entre el globo y la estación de recepción como una función de la altitud ℎ del globo.</p>
+      <p class="texto_pregunta">Una jugadora de voleibol realiza un pase a su compañera, el balón fue lanzado verticalmente para tener tiempo a reubicarse, de acuerdo a los especialistas, el balón subió de acuerdo a la función f(t)=18t-3t^2, siendo 𝑡 el tiempo en segundos y f(t) la altura en metros.
+                                En un intervalo de [0,6] ¿En qué tiempo alcanza la altura máxima?
+      </p>
       <button class="btn-blanco" onclick="modal1()">Abrir</button>
     </div>
   </div>
@@ -21,12 +23,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Determinar el rango de la función</p>
-      <p class="texto_pregunta">
-        $$
-        f(x)=2x^2
-        $$
-      </p>
+      <p class="texto_pregunta">Expresión algebraica que representa la siguiente función</p>
       <button class="btn-blanco" onclick="modal2()">Abrir</button>
     </div>
   </div>
@@ -39,12 +36,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Calcular el límite </p>
-      <p class="texto_pregunta">
-      $$  
-      lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
-      $$
-      </p>
+      <p class="texto_pregunta">Determinar el dominio y rango de la siguiente función f(x)</p>
       <button class="btn-blanco" onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -55,7 +47,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Calcular f´(x) si</p>
+      <p class="texto_pregunta"></p>
       <p class="texto_pregunta">
         $$
         f(x)=6√x+1/√x
@@ -68,5 +60,5 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
-<script src="js/ronda1/calculo.js"></script>
+<script src="js/ronda3/calculo3.js"></script>
 @endpush

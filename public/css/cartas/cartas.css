@@ -44,6 +44,7 @@
 .card__face--back:hover{
    width: 500%;
    height: 130%;
+   align-items: center;
 }
 
 

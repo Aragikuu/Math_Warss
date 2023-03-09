@@ -6,7 +6,4 @@ var cards = document.querySelectorAll('.card');
   });
 });
 
-function redireccion(){
-  location.href ="cardo2"
-}
 

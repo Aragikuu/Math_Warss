@@ -9,7 +9,6 @@
     width: 200px;
     height: 260px;
     perspective: 600px;
-
 }
 
 .scene2 {
@@ -43,7 +42,7 @@
 
 .card__face--back:hover {
     position: relative;
-    width: 50rem;
+    width: 55rem;
     height: 30rem;
     align-items: center;
     box-shadow: 2px 2px 20px 2px #bdbdbd;

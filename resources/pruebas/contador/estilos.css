@@ -8,6 +8,7 @@
 
 body {
     padding: 8rem;
+    padding-top: 20rem;
     text-align: center;
     gap: 10rem;
     grid-auto-rows: 22rem;

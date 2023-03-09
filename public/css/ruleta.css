@@ -4,23 +4,26 @@
 }
 
 .btn {
-	margin-left: 15.6rem;
+	margin-top: 4rem;
+	font-size: 1.3rem;
+	color: aliceblue;
+	margin-left: 14rem;
 	width: 10em;
 	height: 4em;
-	background: #1d3adf;
+	background: #3ca0f2;
 	border-radius: 8px;
 	box-shadow: var(--box-shadow);
 }
 
 
 .container main .cuadro {
-	width: 200px;
-	height: 200px;
+	width: 600px;
+	height: 60px;
+	margin-top: -40rem;
 	margin-left: 55%;
-	margin-top: -40%;
-	background: #f1c40f;
+	background: #d4a600;
 	border-radius: 20px;
-	padding-top: 80px;
+	padding-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;
@@ -28,13 +31,13 @@
 }
 
 .container main .cuadro1 {
-	width: 200px;
-	height: 200px;
-	margin-left: 80%;
-	margin-top: -15.2%;
-	background: #2ecc71;
+	width: 600px;
+	height: 60px;
+	margin-left: 55%;
+	margin-top: 20px;
+	background: #8e44ad;
 	border-radius: 20px;
-	padding-top: 80px;
+	padding-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;
@@ -42,13 +45,13 @@
 }
 
 .container main .cuadro2 {
-	width: 200px;
-	height: 200px;
-	margin-left: 45%;
-	margin-top: 10%;
-	background: #e67e22;
+	width: 600px;
+	height: 60px;
+	margin-left: 55%;
+	margin-top: 10px;
+	background: #0836bf;
 	border-radius: 20px;
-	padding-top: 80px;
+	padding-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;
@@ -56,27 +59,41 @@
 }
 
 .container main .cuadro3 {
-	width: 200px;
-	height: 200px;
-	margin-left: 68%;
-	margin-top: -15.2%;
-	background: #e74c3c;
+	width: 600px;
+	height: 60px;
+	margin-left: 55%;
+	margin-top: 20px;
+	background: #e67e22;
 	border-radius: 20px;
-	padding-top: 80px;
+	padding-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;
-    box-shadow: var(--box-shadow);
+	box-shadow: var(--box-shadow);
 }
 
 .container main .cuadro4 {
-	width: 200px;
-	height: 200px;
-	margin-left: 90%;
-	margin-top: -15.2%;
+	width: 600px;
+	height: 60px;
+	margin-left: 55%;
+	margin-top: 20px;
+	background: #e74c3c;
+	border-radius: 20px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	cursor: pointer;
+	box-shadow: var(--box-shadow);
+}
+
+.container main .cuadro5 {
+	width: 600px;
+	height: 60px;
+	margin-left: 55%;
+	margin-top: 20px;
 	background: #8e44ad;
 	border-radius: 20px;
-	padding-top: 80px;
+	padding-top: 10px;
 	text-align: center;
 	font-size: 30px;
 	cursor: pointer;

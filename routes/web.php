@@ -25,7 +25,7 @@ Route::view('cat1','categoria1');
 Route::view('cat2','categoria2');
 Route::view('master','layaout.plantilla');
 
-Route::view('equipos2','contador');
+Route::view('equiposs','contador');
 
 
 //Cartas de la ronda 1

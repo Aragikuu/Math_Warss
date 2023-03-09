@@ -165,3 +165,10 @@
 .btn-delete:active {
     background: #999999;
 }
+
+.imageness{
+    height: 40%;
+    width: 50%;
+    align-items: center;
+    margin-left: 12rem;
+}

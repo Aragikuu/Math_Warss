@@ -6,7 +6,7 @@
 <div class="scene scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -17,7 +17,7 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -30,7 +30,7 @@
 <div class="scene2 scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -43,7 +43,7 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>

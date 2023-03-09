@@ -42,7 +42,7 @@
 }
 
 .card__face--back:hover{
-   width: 260%;
+   width: 500%;
    height: 130%;
 }
 
@@ -223,5 +223,15 @@
     padding-top: 8rem;
     font-size: 4rem;
     align-items: center;
+    text-align: center;
+}
+
+.preguntas{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.texto_pregunta{
+    font-size: 2rem;
     text-align: center;
 }

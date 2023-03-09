@@ -6,7 +6,7 @@
 <div class="scene scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -17,7 +17,7 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -30,7 +30,7 @@
 <div class="scene2 scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3>Pregunta</h3>
@@ -41,12 +41,12 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3>+10</h3>
+      <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
-      <h3>Pregunta</h3>
-      <p>Dos edificios distan entre sí 150 m. Desde un punto que está entre los dos edificios, las visuales a los puntos más altos de éstos forman con la horizontal ángulos de 35° y 20°, respectivamente. Halla la altura de los edificios, si sabemos que los dos miden lo mismo.</p>
-      <button onclick="modal4()">Abrir</button>
+      <h3 class="preguntas">Pregunta</h3>
+      <p class="texto_pregunta">Dos edificios distan entre sí 150 m. Desde un punto que está entre los dos edificios, las visuales a los puntos más altos de éstos forman con la horizontal ángulos de 35° y 20°, respectivamente. Halla la altura de los edificios, si sabemos que los dos miden lo mismo.</p>
+      <button class="btn-blanco" onclick="modal4()">Abrir</button>
     </div>
   </div>
 </div>

@@ -17,8 +17,6 @@
     </div>
   </div>
 
-
-
   <div class="card">
     <div class="card__face card__face--front">
       <h3 class="puntos">+5</h3>
@@ -45,8 +43,6 @@
       <button class="btn-delete">cerrar</button>
     </div>
   </div>
-
-
 
   <div class="card">
     <div class="card__face card__face--front">

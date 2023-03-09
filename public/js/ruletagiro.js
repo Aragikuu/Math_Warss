@@ -2,11 +2,11 @@ var miRuleta = new Winwheel({
     numSegments: 5,
     outerRadius: 294,
     segments: [
-        { fillStyle: "#f1c40f", text: "" },
-        { fillStyle: "#2ecc71", text: "" },
-        { fillStyle: "#e67e22", text: "" },
-        { fillStyle: "#e74c3c", text: "" },
-        { fillStyle: "#8e44ad", text: "" },
+        { fillStyle: "#f1c40f", text: "1", textFillStyle: "#f1c40f"},
+        { fillStyle: "#2ecc71", text: "2", textFillStyle: "#2ecc71"},
+        { fillStyle: "#e67e22", text: "3", textFillStyle: "#e67e22"},
+        { fillStyle: "#e74c3c", text: "4", textFillStyle: "#e74c3c"},
+        { fillStyle: "#8e44ad", text: "5", textFillStyle: "#8e44ad"},
     ],
     animation: {
         type: "spinToStop",
@@ -29,20 +29,20 @@ dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
     alert("TOCO :  " + SegmentoSeleccionado.text);
-    if (SegmentoSeleccionado.text == "cardo") {
+    if (SegmentoSeleccionado.text == "1") {
         window.location.href = "cardo";
     }
-    if (SegmentoSeleccionado.text == "cardo") {
-        window.location.href = "cardo";
+    if (SegmentoSeleccionado.text == "2") {
+        window.location.href = "cardo2";
     }
-    if (SegmentoSeleccionado.text == "cardo") {
-        window.location.href = "cardo";
+    if (SegmentoSeleccionado.text == "3") {
+        window.location.href = "cardo3";
     }
-    if (SegmentoSeleccionado.text == "cardo") {
-        window.location.href = "cardo";
+    if (SegmentoSeleccionado.text == "4") {
+        window.location.href = "cardo4";
     }
-    if (SegmentoSeleccionado.text == "cardo") {
-        window.location.href = "cardo";
+    if (SegmentoSeleccionado.text == "5") {
+        window.location.href = "cardo5";
     }
 
 
@@ -63,37 +63,4 @@ function dibujarIndicador() {
     ctx.lineTo(280, 0);
     ctx.stroke();
     ctx.fill();
-}
-
-function redireccion() {
-    location.href = "cardo";
-}
-function redireccion2() {
-    location.href = "cardo2";
-}
-function redireccion3() {
-    location.href = "cardo3";
-}
-function redireccion4() {
-    location.href = "cardo4";
-}
-function redireccion5() {
-    location.href = "cardo5";
-}
-
-//ronda 2
-function redireccion1_2() {
-    location.href = "cardo";
-}
-function redireccion2_2() {
-    location.href = "cardo2";
-}
-function redireccion3_2() {
-    location.href = "cardo3";
-}
-function redireccion4_2() {
-    location.href = "cardo4";
-}
-function redireccion5_2() {
-    location.href = "cardo5";
 }

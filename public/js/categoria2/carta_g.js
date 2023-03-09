@@ -6,4 +6,9 @@ var cards = document.querySelectorAll('.card');
   });
 });
 
+var botonOcultar = document.getElementById("ocultarTarjeta");
+var tarjeta = document.querySelector(".card");
 
+botonOcultar.addEventListener("click", function() {
+  tarjeta.style.display = "none";
+});

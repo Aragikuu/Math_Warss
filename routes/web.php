@@ -59,3 +59,4 @@ Route::resource('contadores',ContadorController::class);
 Route::view('car','Ronda1.carrusel');
 Route::view('car2','Ronda2.carrusel2');
 
+Route::delete('/cardo/{id}', 'CardController@eliminar');

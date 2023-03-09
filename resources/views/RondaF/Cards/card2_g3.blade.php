@@ -47,10 +47,10 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta"></p>
+      <p class="texto_pregunta">Calcular f´(x) si</p>
       <p class="texto_pregunta">
         $$
-        f(x)=6√x+1/√x
+        f(x)=x^4∙sen(x)
         $$
       </p>
       <button class="btn-blanco" onclick="modal4()">Abrir</button>

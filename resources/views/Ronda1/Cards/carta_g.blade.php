@@ -32,7 +32,8 @@
   <div class="card" style="display:none;">
     <div class="card__face card__face--front">
       <h3 class="puntos" >+10</h3>
-
+      <!-- segun aqui habi un error -->
+      <button class="btn-card" id="ocultarTarjeta1">Ocultar Tarjeta</button>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>

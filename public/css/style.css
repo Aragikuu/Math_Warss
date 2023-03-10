@@ -987,3 +987,72 @@ main .recent-orders a {
   max-height: 100vh;
 }
 
+
+.modal{
+  margin-top: 10rem;
+  margin-left: 10rem;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 300ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#btn-modal:checked ~ .modal{
+  opacity: 1;
+  visibility: visible;
+}
+
+.conten-1{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 1px 7px 25px rgb(0, 0, 0, 0.5);
+  transition: all 300ms ease;
+  border-radius: 20px;
+  position: relative;
+  transform: translateY(-30);
+  align-items: center;
+}
+
+
+#btn-modal:checked ~ .modal .conten-1{
+  transform: translateY(0%);
+}
+
+.conten-1 header{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  background: #1f1f1f;
+  text-align: center;
+}
+
+
+.conten-1 label{
+  position: absolute;
+  top:10px;
+  right: 12px;
+  color: floralwhite;
+  font-size: 15px;
+  cursor: pointer;
+}
+#btn-modal{
+  display: none;
+}
+
+.lbl-modal{
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contenido-1 {
+  align-items: center;
+}

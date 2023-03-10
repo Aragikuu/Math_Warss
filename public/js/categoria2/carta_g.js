@@ -6,7 +6,7 @@ var cards = document.querySelectorAll('.card');
   });
 });
 
-var botonOcultar = document.getElementById("ocultarTarjeta");
+var botonOcultar = document.getElementById("ocultarTarjeta1");
 var tarjeta = document.querySelector(".card");
 
 botonOcultar.addEventListener("click", function() {

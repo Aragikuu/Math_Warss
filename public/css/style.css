@@ -988,71 +988,76 @@ main .recent-orders a {
 }
 
 
-.modal{
-  margin-top: 0rem;
-  margin-left: 10rem;
-  position: absolute;
-  align-items: center;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  transition: all 300ms ease;
-  opacity: 0;
-  visibility: hidden;
-}
-
-#btn-modal:checked ~ .modal{
-  opacity: 1;
-  visibility: visible;
-}
-
-.conten-1{
-  width: 500px;
-  height: 500px;
-  margin: auto;
-  background: #fff;
-  box-shadow: 1px 7px 25px rgb(0, 0, 0, 0.5);
-  transition: all 300ms ease;
-  border-radius: 20px;
-  position: absolute;
-  transform: translateY(-30);
-  align-items: center;
-}
-
-
-#btn-modal:checked ~ .modal .conten-1{
-  transform: translateY(0%);
-}
-
-.conten-1 header{
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  padding: 10px;
-  color: #fff;
-  background: #1f1f1f;
-  text-align: center;
-}
-
-
-.conten-1 label{
-  position: absolute;
-  top:10px;
-  right: 12px;
-  color: floralwhite;
-  font-size: 15px;
+/*:::Boton-Modal:::*/
+.boton-modal label{
+  padding: 10px 15px;
+  background-color: #edf1f3;
+  color: #242424;
+  border-radius: 4px;
   cursor: pointer;
+  transition: all 300ms ease;
 }
+.boton-modal label:hover{
+  background-color: #242424;
+  color: #fff;
+}
+/*:::Fin Boton-Modal:::*/
+
+/*:::Ventana Modal:::*/
 #btn-modal{
   display: none;
 }
-
-.lbl-modal{
-  background: #1f1f1f;
-  color: #fff;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.contenido-1 {
+.container-modal{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(144, 148, 150, 0.8);
+  display: none;
+  justify-content: center;
   align-items: center;
+  z-index: 100;
+}
+#btn-modal:checked ~ .container-modal{
+  display: flex;
+}
+.content-modal{
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.content-modal h2{
+  margin-bottom: 15px;
+  text-align: center;
+}
+.content-modal p{
+  padding: 15px 0px;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.content-modal .btn-cerrar{
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.content-modal .btn-cerrar label{
+  padding: 7px 10px;
+  background-color: #242424;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+.content-modal .btn-cerrar label:hover{
+  background-color:#242424;
+}
+.cerrar-modal{
+  width:100%;
+  height: 100vh;
+  position: absolute;
+  top:0; left: 0;
+  z-index: -1;
 }

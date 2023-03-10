@@ -1,5 +1,6 @@
 @extends('layaout.plantilla')
 <link rel="stylesheet" href="css/cartas/cartas.css">
+
 @section('titulo','Calculo')
 @section('contenido')
 
@@ -18,19 +19,24 @@
       <p class="texto_pregunta">{{$row->pregunta}}</p>
       <p class="texto_pregunta" >{{$row->respuesta}}</p>
         <!-- AQUI VA EL MODAL -->
-        <input type="checkbox" id="btn-modal" />
-    <label for="btn-modal" class="lbl-modal">abrir</label>
-    <div class="modal">
-      <div class="conten-1">
-        <header>Respuesta</header>
-        <label for="btn-modal">X</label>
-        <div class="contenido-1">
-          <table>
-              <p>{{$row->respuesta}}</p>
+        <!-- Aqui va el acordion para agregar equipos -->
+<div class="barra-despliege">
+    <div class="contenido">
+        <input class="imput" type="radio" name="acc" id="acc1" required>
+        <label class="label" for="acc1" required>
+            <!-- <h2 class="numero">01</h2> -->
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3 class="titulo">La respuesta es </h3>
+        </label>
+
+        <div class="datos">
+            <p class="texto_pregunta">{{$row->respuesta}}</p>
         </div>
-      </div>
     </div>
-        <!-- AQUI FINALIZA -->
+</div>
+<!-- aqui finaliza -->
+        <!-- Fin de la ventana -->
+
 
     
       

@@ -63,5 +63,8 @@ class AlgebraController extends Controller
     public function destroy($id)
     {
         //
+        $algebra= Algebra::find($id);
+        $algebra->delete();
+        return redirect('algebra');
     }
 }

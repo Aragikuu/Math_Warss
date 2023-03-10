@@ -31,10 +31,10 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card">
+  <div class="card" style="display:none;">
     <div class="card__face card__face--front">
       <h3 class="puntos" >+10</h3>
-      <button class="btn-card" id="ocultarTarjeta">Ocultar Tarjeta</button>
+      <button class="btn-card" id="ocultarTarjeta1">Ocultar Tarjeta</button>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
@@ -44,7 +44,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" style="display:none;">
     <div class="card__face card__face--front">
       <h3 class="puntos" >+25</h3>
     </div>

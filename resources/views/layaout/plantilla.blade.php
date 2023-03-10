@@ -37,6 +37,10 @@
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')
     </main>
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
 
     <!-- <div class="relog">
       <div class="timer">

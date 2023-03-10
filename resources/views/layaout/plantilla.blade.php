@@ -33,7 +33,6 @@
     </aside><!--fin de la barra de navegacion-->
     <main>
 
-    
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')

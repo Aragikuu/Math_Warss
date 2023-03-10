@@ -12,7 +12,7 @@
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">El tobogán de un parque mide 2.9 m y forma un ángulo de 40° con el suelo. ¿Qué altura (X), tendrá la escalerilla?</p>
       <img class="imageness" src="img/Ronda1/Geometria_1.png" alt="" srcset="">
-      <button class="btn-blanco" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modal1()">Abrir</button>
     </div>
   </div>
 
@@ -24,7 +24,7 @@
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Se quiere fijar una antena con un cable, a 1.5m de su base y con un ángulo de 42°, ¿Cuál será la longitud del cable? </p>
       <img class="imageness" src="img/Ronda1/Geometria_2.png" alt="" srcset="">
-      <button class="btn-blanco" onclick="modal2()">Abrir</button>
+      <button class="btn-card" onclick="modal2()">Abrir</button>
     </div>
   </div>
 </div>
@@ -40,7 +40,7 @@
         Calcula: a) La longitud de la diagonal menor, b) el área del paralelogramo
       </p>
       <img class="imageness" src="img/Ronda1/Geometria_3.png" alt="" srcset="">
-      <button class="btn-blanco" onclick="modal3()">Abrir</button>
+      <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
 
@@ -52,7 +52,7 @@
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Utilizando identidades trigonométricas encuentra a que identidad corresponde la siguiente expresión:</p>
       <img class="imageness" src="img/Ronda1/Geometria_4.png" alt="" srcset="">
-      <button class="btn-blanco" onclick="modal4()">Abrir</button>
+      <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>
 </div>

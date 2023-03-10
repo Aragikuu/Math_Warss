@@ -32,5 +32,5 @@
 
 @endsection
 @push('scripts')
-<script src="js/ruletagiro.js"></script>
+<script src="js/ruleta/ruletagiro.js"></script>
 @endpush

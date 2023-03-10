@@ -16,7 +16,7 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">{{$row->pregunta}}</p>
-      <p class="texto_pregunta"><?php echo $row['respuesta'] ?></p>
+      <p class="texto_pregunta" hidden>{{$row->respuesta}}</p>
 
       <button type="submit" class="btn-blanco" onclick="respuesta()">Abrir</button>
     </div>

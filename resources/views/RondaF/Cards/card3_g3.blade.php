@@ -10,7 +10,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">El tobogán de un parque mide 2.9 m y forma un ángulo de 40° con el suelo. ¿Qué altura (X), tendrá la escalerilla?</p>
+      <p class="texto_pregunta">Calcule el área total del siguiente tetraedro</p>
       <button class="btn-blanco" onclick="modal1()">Abrir</button>
     </div>
   </div>
@@ -21,7 +21,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Se quiere fijar una antena con un cable, a 1.5m de su base y con un ángulo de 42°, ¿Cuál será la longitud del cable? </p>
+      <p class="texto_pregunta">A 57 m de una barda cuya altura es de 1.5 m se pone una antena de radiodifusión, el ángulo de elevación con respecto al nivel de la altura de la barda al extremo superior de la antena es de 29° ¿Cuál es la altura h de la antena?</p>
       <button class="btn-blanco" onclick="modal2()">Abrir</button>
     </div>
   </div>
@@ -34,9 +34,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Los lados de un paralelogramo forman un ángulo de 70°. Sus medidas son 7 y 8 cm. 
-        Calcula: a) La longitud de la diagonal menor, b) el área del paralelogramo
-      </p>
+      <p class="texto_pregunta">Dos perros se alejan del mismo lugar recorriendo 30 m y 43 m respectivamente. El primero con un ángulo N-E de 50° y el segundo con un ángulo S-E de 56°. ¿Cuál es la distancia entre ellos?</p>
       <button class="btn-blanco" onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -47,7 +45,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Utilizando identidades trigonométricas encuentra a que identidad corresponde la siguiente expresión:</p>
+      <p class="texto_pregunta">Halla la altura h del edificio representado en la imagen</p>
       <button class="btn-blanco" onclick="modal4()">Abrir</button>
     </div>
   </div>
@@ -55,5 +53,5 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
-<script src="js/ronda1/geo_trigo.js"></script>
+<script src="js/ronda3/geo_trigo3.js"></script>
 @endpush

@@ -15,6 +15,7 @@ class Algebra extends Model
         'id',
         'pregunta',
         'puntos',
-        'img'        
+        'img',
+        'respuesta'        
     ];
 }

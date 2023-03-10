@@ -15,7 +15,7 @@
 </div>
 
 <div class="cuadro1">
-    Geometria y Tigonometria
+    Calculo Diferencial
 </div>
 
 <div class="cuadro2">

@@ -2,11 +2,11 @@ var miRuleta = new Winwheel({
     numSegments: 5,
     outerRadius: 294,
     segments: [
-        { fillStyle: "#f1c40f", text: "1", textFillStyle: "#f1c40f"},
-        { fillStyle: "#2ecc71", text: "2", textFillStyle: "#2ecc71"},
-        { fillStyle: "#e67e22", text: "3", textFillStyle: "#e67e22"},
-        { fillStyle: "#e74c3c", text: "4", textFillStyle: "#e74c3c"},
-        { fillStyle: "#8e44ad", text: "5", textFillStyle: "#8e44ad"},
+        { fillStyle: "#f1c40f", text: "Àlgebra", textFillStyle: "#f1c40f"},
+        { fillStyle: "#ce1919", text: "Càlculo Diferencial", textFillStyle: "#ce1919"},
+        { fillStyle: "#e67e22", text: "Geometrìa y Trigonometrìa", textFillStyle: "#e67e22"},
+        { fillStyle: "#0836bf", text: "Geometria Analìtica", textFillStyle: "#0836bf"},
+        { fillStyle: "#8e44ad", text: "Estadìstica Descriptiva", textFillStyle: "#8e44ad"},
     ],
     animation: {
         type: "spinToStop",
@@ -29,19 +29,19 @@ dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
     alert("TOCO :  " + SegmentoSeleccionado.text);
-    if (SegmentoSeleccionado.text == "1") {
+    if (SegmentoSeleccionado.text == "Àlgebra") {
         window.location.href = "cardo";
     }
-    if (SegmentoSeleccionado.text == "2") {
+    if (SegmentoSeleccionado.text == "Càlculo Diferencial") {
         window.location.href = "cardo2";
     }
-    if (SegmentoSeleccionado.text == "3") {
+    if (SegmentoSeleccionado.text == "Geometrìa y Trigonometrìa") {
         window.location.href = "cardo3";
     }
-    if (SegmentoSeleccionado.text == "4") {
+    if (SegmentoSeleccionado.text == "Geometria Analìtica") {
         window.location.href = "cardo4";
     }
-    if (SegmentoSeleccionado.text == "5") {
+    if (SegmentoSeleccionado.text == "Estadìstica Descriptiva") {
         window.location.href = "cardo5";
     }
 

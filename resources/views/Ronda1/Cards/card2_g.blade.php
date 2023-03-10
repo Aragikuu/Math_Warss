@@ -11,7 +11,7 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Se suelta un globo de observación en un punto a 10 kilómetros de la estación que recibe su señal y se eleva verticalmente como se indica en la figura. Expresa la distancia 𝑑(ℎ) entre el globo y la estación de recepción como una función de la altitud ℎ del globo.</p>
-      <button class="btn-blanco" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modal1()">Abrir</button>
     </div>
   </div>
 
@@ -27,7 +27,7 @@
         f(x)=2x^2
         $$
       </p>
-      <button class="btn-blanco" onclick="modal2()">Abrir</button>
+      <button class="btn-card" onclick="modal2()">Abrir</button>
     </div>
   </div>
 </div>
@@ -40,13 +40,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Calcular el límite </p>
-      <p class="texto_pregunta">
-      $$  
-      lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
-      $$
-      </p>
-      <img class="imageness" src="img/Ronda1/calculoD1.png" alt="" srcset="">
-      <button class="btn-blanco" onclick="modal3()">Abrir</button>
+      <img class="imageness" src="img/Ronda1/calculo3.png" alt="" srcset="">
+      <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
 
@@ -57,12 +52,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Calcular f´(x) si</p>
-      <p class="texto_pregunta">
-        $$
-        f(x)=6√x+1/√x
-        $$
-      </p>
-      <button class="btn-blanco" onclick="modal4()">Abrir</button>
+      <img class="imageness" src="img/Ronda1/calculo4.png" alt="" srcset="">
+      <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>
 

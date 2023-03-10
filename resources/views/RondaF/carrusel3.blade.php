@@ -32,6 +32,5 @@
 
 @endsection
 @push('scripts')
-<script src="js/ruletagiro.js"></script>
-<script src="js/ronda1/algebra3.js"></script>
+<script src="js/ruleta/ruletagiro3.js"></script>
 @endpush

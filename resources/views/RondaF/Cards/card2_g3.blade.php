@@ -13,7 +13,7 @@
       <p class="texto_pregunta">Una jugadora de voleibol realiza un pase a su compañera, el balón fue lanzado verticalmente para tener tiempo a reubicarse, de acuerdo a los especialistas, el balón subió de acuerdo a la función f(t)=18t-3t^2, siendo 𝑡 el tiempo en segundos y f(t) la altura en metros.
                                 En un intervalo de [0,6] ¿En qué tiempo alcanza la altura máxima?
       </p>
-      <button class="btn-blanco" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modal1()">Abrir</button>
     </div>
   </div>
 
@@ -24,7 +24,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Expresión algebraica que representa la siguiente función</p>
-      <button class="btn-blanco" onclick="modal2()">Abrir</button>
+      <img class="imageness" src="img/Ronda3/calculo2.png" alt="" srcset="">
+      <button class="btn-card" onclick="modal2()">Abrir</button>
     </div>
   </div>
 </div>
@@ -37,7 +38,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Determinar el dominio y rango de la siguiente función f(x)</p>
-      <button class="btn-blanco" onclick="modal3()">Abrir</button>
+      <img class="imageness" src="img/Ronda3/calculo3.png" alt="" srcset="">
+      <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
 
@@ -53,7 +55,7 @@
         f(x)=x^4∙sen(x)
         $$
       </p>
-      <button class="btn-blanco" onclick="modal4()">Abrir</button>
+      <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>
 

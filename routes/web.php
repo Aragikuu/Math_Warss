@@ -63,6 +63,7 @@ Route::resource('contadores',ContadorController::class);
 //Ruleta
 Route::view('car','Ronda1.carrusel');
 Route::view('car2','Ronda2.carrusel2');
+Route::view('car3','RondaF.carrusel3');
 
 
 // API para las preguntas 

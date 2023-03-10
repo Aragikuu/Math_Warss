@@ -50,13 +50,11 @@
       <button class="inicio" id="start" onclick="startTimer()">Start</button>
       <button class="alto" id="stop" onclick="stopTimer()">Stop</button>
       <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
-    </div> -->
-
-
+    </div>
+x -->
   </div> <!--fin delconotenedor-->
   @stack('scripts')
-  <script src="js/cronometro.js"></script>
-
+  <script src="js/cronometro"></script>
 </body>
 @yield('js')
 

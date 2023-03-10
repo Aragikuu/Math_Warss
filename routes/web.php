@@ -71,3 +71,6 @@ Route::resource('geoanali',GeometriaAnalitica::class);
 Route::resource('geotri',GeometriaTrigonometria::class);
 Route::resource('estadistica',EstadisticaDescriptiva::class);
 Route::resource('calculo',CalculoDiferencial::class);
+
+
+Route::delete('/cardo/{id}', 'CardController@eliminar');

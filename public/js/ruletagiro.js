@@ -1,42 +1,50 @@
 var miRuleta = new Winwheel({
-
-    'numSegments' : 5,
-    'outerRadius' : 270,
-    'segments':[
-        {'fillStyle': '#f1c40f', 'text': 'Pregunta 1'},
-        {'fillStyle': '#2ecc71', 'text': 'Pregunta 2'},
-        {'fillStyle': '#e67e22', 'text': 'Pregunta 3'},
-        {'fillStyle': '#e74c3c', 'text': 'Pregunta 4'},
-        {'fillStyle': '#8e44ad', 'text': 'Pregunta 5'},
-
+    numSegments: 5,
+    outerRadius: 294,
+    segments: [
+        { fillStyle: "#f1c40f", text: "1", textFillStyle: "#f1c40f"},
+        { fillStyle: "#2ecc71", text: "2", textFillStyle: "#2ecc71"},
+        { fillStyle: "#e67e22", text: "3", textFillStyle: "#e67e22"},
+        { fillStyle: "#e74c3c", text: "4", textFillStyle: "#e74c3c"},
+        { fillStyle: "#8e44ad", text: "5", textFillStyle: "#8e44ad"},
     ],
-    'animation':{
-        'type':'spinToStop',
-        'duration': 6,
-        'callbackFinished':'Mensaje()',
-        'callbackAfter':'dibujarIndicador()'
-    }
+    animation: {
+        type: "spinToStop",
+        duration: 6,
+        callbackFinished: "Mensaje()",
+        callbackAfter: "dibujarIndicador()",
+    },
 });
+
+function girar() {
+    // código para girar la ruleta y seleccionar un resultado
+    var resultado = "Página de destino";
+    document.getElementById("resultado").innerHTML = resultado;
+
+    // redirigir a la otra página
+    window.location.href = "otra_pagina.html";
+}
 
 dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
     alert("TOCO :  " + SegmentoSeleccionado.text);
-    if(SegmentoSeleccionado.text == "Pregunta 1"){
-        $('#myModal1').modal({backdrop:'static'});
+    if (SegmentoSeleccionado.text == "1") {
+        window.location.href = "cardo";
     }
-    if(SegmentoSeleccionado.text == "Pregunta 2"){
-        $('#myModal2').modal({backdrop:'static'});
+    if (SegmentoSeleccionado.text == "2") {
+        window.location.href = "cardo2";
     }
-    if(SegmentoSeleccionado.text == "Pregunta 3"){
-        $('#myModal3').modal({backdrop:'static'});
+    if (SegmentoSeleccionado.text == "3") {
+        window.location.href = "cardo3";
     }
-    if(SegmentoSeleccionado.text == "Pregunta 4"){
-        $('#myModal4').modal({backdrop:'static'});
+    if (SegmentoSeleccionado.text == "4") {
+        window.location.href = "cardo4";
     }
-    if(SegmentoSeleccionado.text == "Pregunta 5"){
-        $('#myModal5').modal({backdrop:'static'});
+    if (SegmentoSeleccionado.text == "5") {
+        window.location.href = "cardo5";
     }
+
 
     miRuleta.stopAnimation(false);
     miRuleta.rotationAngle = 0;
@@ -45,47 +53,14 @@ function Mensaje() {
 }
 function dibujarIndicador() {
     var ctx = miRuleta.ctx;
-    ctx.strokeStyle = 'navy';
-    ctx.fillStyle = '#fff';
+    ctx.strokeStyle = "navy";
+    ctx.fillStyle = "#fff";
     ctx.lineWidth = 2;
     ctx.beginPath();
-    ctx.moveTo(300,0);
-    ctx.lineTo(320,0);
-    ctx.lineTo(300,40);
-    ctx.lineTo(280,0);
+    ctx.moveTo(300, 0);
+    ctx.lineTo(320, 0);
+    ctx.lineTo(300, 40);
+    ctx.lineTo(280, 0);
     ctx.stroke();
     ctx.fill();
-}
-
-function redireccion(){
-    location.href ="cardo"
-}
-function redireccion2(){
-    location.href ="cardo2"
-}
-function redireccion3(){
-    location.href ="cardo3"
-}
-function redireccion4(){
-    location.href ="cardo4"
-}
-function redireccion5(){
-    location.href ="cardo5"
-}
-
-//ronda 2
-function redireccion1_2(){
-    location.href ="cardo"
-}
-function redireccion2_2(){
-    location.href ="cardo2"
-}
-function redireccion3_2(){
-    location.href ="cardo3"
-}
-function redireccion4_2(){
-    location.href ="cardo4"
-}
-function redireccion5_2(){
-    location.href ="cardo5"
 }

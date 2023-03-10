@@ -45,6 +45,7 @@
       lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
       $$
       </p>
+      <img class="imageness" src="img/Ronda1/calculoD1.png" alt="" srcset="">
       <button class="btn-blanco" onclick="modal3()">Abrir</button>
     </div>
   </div>

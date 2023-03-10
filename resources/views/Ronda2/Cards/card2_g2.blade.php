@@ -11,7 +11,7 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">¿La siguiente gráfica representa una función?</p>
-      <button class="btn-blanco" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modal1()">Abrir</button>
     </div>
   </div>
 
@@ -25,7 +25,7 @@
       <p class="texto_pregunta">
         $$ f(x)=(x^3-2x^2)/(x-2) $$
       </p>
-      <button class="btn-blanco" onclick="modal2()">Abrir</button>
+      <button class="btn-card" onclick="modal2()">Abrir</button>
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
       <p class="texto_pregunta">
         $$ lim┬(x→1)⁡〖(x^3-1)/(x-1)〗 $$
       </p>
-      <button class="btn-blanco" onclick="modal3()">Abrir</button>
+      <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
 
@@ -56,7 +56,7 @@
         $$ f(x)=3x^2+4x+2 a=-1$$
       
       </p>
-      <button class="btn-blanco" onclick="modal4()">Abrir</button>
+      <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>
 

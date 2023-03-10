@@ -45,7 +45,7 @@
         lim┬(x→7)⁡〖(x^2-49)/(x-7)〗
         $$
       </p>
-      <img class="imageness" src="img/Ronda1/calculoD1.png" alt="" srcset="">
+      <!-- <img class="imageness" src="img/Ronda1/calculoD1.png" alt="" srcset=""> -->
       <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -69,4 +69,5 @@
   @endsection
   @push('scripts')
   <script src="js/categoria2/carta_g.js"></script>
+  <script src="js/ronda1/geo_anal.js"></script>
   @endpush

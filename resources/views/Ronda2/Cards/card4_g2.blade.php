@@ -57,4 +57,5 @@
 @endsection
 @push('scripts')
 <script src="js/categoria2/carta_g.js"></script>
+<script src="js/ronda2/geo_anal2.js"></script>
 @endpush

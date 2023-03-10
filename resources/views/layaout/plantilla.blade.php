@@ -33,20 +33,7 @@
     </aside><!--fin de la barra de navegacion-->
     <main>
 
-    <input type="checkbox" id="btn-modal" />
-    <label for="btn-modal" class="lbl-modal">abrir</label>
-
-
-    <div class="modal">
-      <div class="conten-1">
-        <header>Wenas</header>
-        <label for="btn-modal">X</label>
-        <div class="contenido-1">
-          <table>
-              <p>cadasdasdasdasda d asd sa d as ddsdasd  das da</p>
-        </div>
-      </div>
-    </div>
+    
       <!-- Desde aqui puedes poner todo el contenido a mostrar de cada uno de los modulos -->
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')

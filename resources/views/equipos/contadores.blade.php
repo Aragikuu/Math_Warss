@@ -30,12 +30,14 @@
     </div>
 </div>
 <!-- aqui finaliza -->
-<div class="marco">
+<!-- <div class="marco">
     @php $i=1; @endphp
     @foreach($contadores as $row)
     <div class="contenedor">
-
-        <p class="titulo" name="nombre_equipo">{{$row->nombre_equipo}}</p>
+    <form id="frmContador" action="{{ url('contadores') }}" method="POST">
+        @method('PUT')
+        @csrf
+        <input class="input" name="nombre_equipo">{{$row->nombre_equipo}}</p>
         <input type="text" class="input" name="puntos" value="{{$row->puntos}}">
 
         <div class="botones">
@@ -49,12 +51,59 @@
                 <spa class="material-icons-round">cached</spa>
             </btn>
         </div>
-
+        <button class="btn-agregar">agregar</button>
+    </form>
     </div>
-    @endforeach
+    @endforeach -->
     <!-- aqui finaliza el contenedor del contador -->
-</div>
+<!-- </div> -->
 
+<div class="marco">
+<!-- Aqui comienza la pruba con cards estaticos -->
+<div class="contenedor">
+<form id="frmContador" action="{{ url('contadores') }}" method="POST">
+                @csrf
+        <input type="text" class="input" name="nombre_equipo">
+
+        <input type="text" class="input" name="puntos">
+
+        <div class="botones">
+            <btn class="incr" id="incr2">
+                <spa class="material-icons-round">add</spa>
+            </btn>
+            <btn class="decr" id="decr2">
+                <spa class="material-icons-round">remove</spa>
+            </btn>
+            <btn class="reset" id="reset2">
+                <spa class="material-icons-round">cached</spa>
+            </btn>
+           
+</div>
+<button class="btn-agregar">agregar</button>
+</div>
+<!-- segundo card -->
+        <div class="contenedor">
+
+        <input type="text" class="input" name="nombre_equipo">
+
+        <input type="text" class="input" name="puntos">
+
+        <div class="botones">
+            <btn class="incr" id="incr2">
+                <spa class="material-icons-round">add</spa>
+            </btn>
+            <btn class="decr" id="decr2">
+                <spa class="material-icons-round">remove</spa>
+            </btn>
+            <btn class="reset" id="reset2">
+                <spa class="material-icons-round">cached</spa>
+            </btn>
+        </div>
+        <button class="btn-agregar">agregar</button>
+        </div>    
+        <!-- fin del segundo card  -->
+<!-- Aqui finaliza -->
+</div>
 @endsection
 @push('scripts')
 <script src="js/main.js"></script>

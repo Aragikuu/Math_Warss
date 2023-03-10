@@ -1,8 +1,13 @@
 <?php
 
+use App\Http\Controllers\AlgebraController;
 use App\Http\Controllers\ContadorController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EquiposController;
+use App\Models\CalculoDiferencial;
+use App\Models\EstadisticaDescriptiva;
+use App\Models\GeometriaAnalitica;
+use App\Models\GeometriaTrigonometria;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,3 +64,10 @@ Route::resource('contadores',ContadorController::class);
 Route::view('car','Ronda1.carrusel');
 Route::view('car2','Ronda2.carrusel2');
 
+
+// API para las preguntas 
+Route::resource('algebra',AlgebraController::class);
+Route::resource('geoanali',GeometriaAnalitica::class);
+Route::resource('geotri',GeometriaTrigonometria::class);
+Route::resource('estadistica',EstadisticaDescriptiva::class);
+Route::resource('calculo',CalculoDiferencial::class);

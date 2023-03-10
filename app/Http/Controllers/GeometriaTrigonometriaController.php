@@ -4,9 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Equipos;
 
-class ContadorController extends Controller
+class GeometriaTrigonometriaController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,8 +15,6 @@ class ContadorController extends Controller
     public function index()
     {
         //
-        $contadores = Equipos::all();
-        return view('equipos.contadores',compact('contadores'));
     }
 
     /**
@@ -29,9 +26,6 @@ class ContadorController extends Controller
     public function store(Request $request)
     {
         //
-        $equipo = new Equipos($request->input());
-        $equipo->saveOrFail();
-        return redirect('contadores');
     }
 
     /**
@@ -43,8 +37,6 @@ class ContadorController extends Controller
     public function show($id)
     {
         //
-        $contador = Equipos::find($id);
-        return view('equipos.contadores',compact('contador'));
     }
 
     /**
@@ -57,10 +49,6 @@ class ContadorController extends Controller
     public function update(Request $request, $id)
     {
         //
-        $contador = Equipos::find($id);
-        $contador->fill($request->input())->saveOrFail();
-        
-        return redirect('contadores');
     }
 
     /**

@@ -26,7 +26,7 @@
   <div class="container"><!--inicio del contenedor-->
     <aside> <!--Inicio de la barra de navegacion-->
       <div class="top">
-        <div class="logo">
+        <div class="logo" href="">
           <img src="img/utc-log.png" alt="">
           <h2>MATH-<span class="danger">WARS</span></h2>
         </div>

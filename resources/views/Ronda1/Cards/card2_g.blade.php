@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" >
     <div class="card__face card__face--front">
       <h3 class="puntos">+10</h3>
     </div>
@@ -33,8 +33,8 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card">
-    <div class="card__face card__face--front">
+  <div class="card" style="display:none">
+    <div class="card__face card__face--front" >
       <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
@@ -51,7 +51,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Calcular f´(x) si</p>
+      <p class="texto_pregunta">Calcular f'(x) si</p>
       <img class="imageness" src="img/Ronda1/calculo4.png" alt="" srcset="">
       <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>

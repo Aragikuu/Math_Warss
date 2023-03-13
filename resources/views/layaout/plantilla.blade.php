@@ -8,6 +8,8 @@
   <link rel="icon" type="image/png" href="img/utc-log.png">
   @yield('css')
   <title>UTC</title>
+  <!-- Sweet Alert 2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

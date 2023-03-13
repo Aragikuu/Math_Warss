@@ -115,9 +115,16 @@
     text-align: center;
 }
 
+
 .texto_pregunta {
     margin-top: 4rem;
     font-size: 2rem;
+    text-align: center;
+}
+
+.texto_pregunta2 {
+    margin-top: 4rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 

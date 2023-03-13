@@ -17,7 +17,7 @@
 
   <div class="card" >
     <div class="card__face card__face--front">
-      <h3 class="puntos">+10</h3>
+      <h3 class="puntos">+20</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
@@ -33,7 +33,7 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card" style="display:none">
+  <div class="card" >
     <div class="card__face card__face--front" >
       <h3 class="puntos">+10</h3>
     </div>

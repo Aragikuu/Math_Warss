@@ -1,17 +1,48 @@
 function modal1(){
-    swal("Respuesta: ", "  x^2+y^2+6y-16=0 ", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/analR1_2.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+        
+      });
+
+      
 }
 
 function modal2(){
-    swal("Respuesta: ", " x^2+20y=0 ", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/analR2_2.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+      });
 }
 
 function modal3(){
-    swal("Respuesta: ", "$$(3/2,7/2)$$", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/analR3_2.png',
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: '',
+      });
 }
 
 function modal4(){
-    swal("Respuesta: ", " V(5,-1), F(5,2), y+4=0 ", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/analR4_2.png',
+        imageWidth: 350,
+        imageHeight: 200,
+        imageAlt: '',
+      });
 }
 
 function modal5(){

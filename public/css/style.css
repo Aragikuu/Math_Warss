@@ -792,7 +792,7 @@ main .recent-orders a {
   border-radius: 6px;
 }
 
-.btn-eliminar{
+.btn-eliminar {
   width: 3.5rem;
   height: 3.5rem;
   color: var(--color-dark);
@@ -804,15 +804,15 @@ main .recent-orders a {
   align-items: center;
 }
 
-.btn-eliminar:hover{
+.btn-eliminar:hover {
   background: #ce2626;
 }
 
-.btn-eliminar:active{
+.btn-eliminar:active {
   background: #bb1919;
 }
 
-.btn-editar{
+.btn-editar {
   width: 3.5rem;
   height: 3.5rem;
   color: var(--color-dark);
@@ -824,15 +824,15 @@ main .recent-orders a {
   align-items: center;
 }
 
-.btn-editar:hover{
+.btn-editar:hover {
   background: var(--color-danger);
 }
 
-.btn-editar:active{
+.btn-editar:active {
   background: #fdfdfc;
 }
 
-.btn-agregar{
+.btn-agregar {
   margin-left: 10px;
   width: 4rem;
   height: 2rem;
@@ -845,15 +845,15 @@ main .recent-orders a {
   transition: all 300ms ease;
 }
 
-.btn-agregar:hover{
+.btn-agregar:hover {
   background: #166cdb;
 }
 
-.btn-agregar:active{
+.btn-agregar:active {
   background: #1a75ec;
 }
 
-.barra-despliege{
+.barra-despliege {
   margin-top: 20px;
   max-width: 90%;
   display: flex;
@@ -861,7 +861,7 @@ main .recent-orders a {
   gap: 20px;
 }
 
-.btn-blanco{
+.btn-blanco {
   color: #181a1e;
   margin-left: 10px;
   width: 4rem;
@@ -875,16 +875,16 @@ main .recent-orders a {
   transition: all 300ms ease;
 }
 
-.btn-blanco:hover{
+.btn-blanco:hover {
   background: #d8d8d8;
 }
 
-.btn-blanco:active{
+.btn-blanco:active {
   background: #edf5ff;
 }
 
 
-.contenido{
+.contenido {
   position: relative;
   background: var(--color-white);
   padding: 0 20px 20px;
@@ -896,17 +896,15 @@ main .recent-orders a {
   text-align: center;
 }
 
-.input{
+.input {
   margin-top: 36px;
   appearance: none;
   height: 40px;
   width: 20rem;
   padding: 4px;
   margin-bottom: 20px;
-  box-shadow:none;
+  box-shadow: none;
   border-radius: 5px;
-  
-  
 }
 
 .input:hover {
@@ -914,14 +912,14 @@ main .recent-orders a {
   box-shadow: 0 0 25px #e4ca08;
 }
 
-.input2{
+.input2 {
   margin-top: 36px;
   appearance: none;
   height: 20px;
   width: 20rem;
   padding: 4px;
   margin-bottom: 20px;
-  box-shadow:none;
+  box-shadow: none;
   border-radius: 5px;
 }
 
@@ -931,13 +929,13 @@ main .recent-orders a {
 }
 
 
-.label{
+.label {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 
-.label::after{
+.label::after {
   content: '+';
   position: absolute;
   right: 20px;
@@ -946,15 +944,15 @@ main .recent-orders a {
   transition: transform 1s;
 }
 
-.contenido:hover label::after{
+.contenido:hover label::after {
   color: #dadada;
 }
 
-.imput:checked ~ label::after{
+.imput:checked~label::after {
   transform: rotate(135deg);
 }
 
-.numero{
+.numero {
   width: 40px;
   height: 40px;
   background: #cfcfcf;
@@ -966,7 +964,7 @@ main .recent-orders a {
   margin-left: 10px;
 }
 
-.titulo{
+.titulo {
   font-size: 1.4rem;
   position: relative;
   font-weight: 500;
@@ -975,7 +973,7 @@ main .recent-orders a {
   margin-left: 32rem;
 }
 
-.datos{
+.datos {
   margin-top: 20px;
   max-height: 0;
   transition: 1s;
@@ -983,13 +981,13 @@ main .recent-orders a {
   align-items: center;
 }
 
-.imput:checked ~ .datos{
+.imput:checked~.datos {
   max-height: 100vh;
 }
 
 
 /*:::Boton-Modal:::*/
-.boton-modal label{
+.boton-modal label {
   padding: 10px 15px;
   background-color: #edf1f3;
   color: #242424;
@@ -997,53 +995,63 @@ main .recent-orders a {
   cursor: pointer;
   transition: all 300ms ease;
 }
-.boton-modal label:hover{
+
+.boton-modal label:hover {
   background-color: #242424;
   color: #fff;
 }
+
 /*:::Fin Boton-Modal:::*/
 
 /*:::Ventana Modal:::*/
-#btn-modal{
+#btn-modal {
   display: none;
 }
-.container-modal{
+
+.container-modal {
   width: 100%;
   height: 100vh;
   position: fixed;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   background-color: rgba(144, 148, 150, 0.8);
   display: none;
   justify-content: center;
   align-items: center;
   z-index: 100;
 }
-#btn-modal:checked ~ .container-modal{
+
+#btn-modal:checked~.container-modal {
   display: flex;
 }
-.content-modal{
+
+.content-modal {
   width: 100%;
   max-width: 400px;
   padding: 20px;
   background-color: #fff;
   border-radius: 20px;
 }
-.content-modal h2{
+
+.content-modal h2 {
   margin-bottom: 15px;
   text-align: center;
 }
-.content-modal p{
+
+.content-modal p {
   padding: 15px 0px;
   border-top: 1px solid #dbdbdb;
   border-bottom: 1px solid #dbdbdb;
 }
-.content-modal .btn-cerrar{
+
+.content-modal .btn-cerrar {
   width: 100%;
   margin-top: 15px;
   display: flex;
   justify-content: flex-end;
 }
-.content-modal .btn-cerrar label{
+
+.content-modal .btn-cerrar label {
   padding: 7px 10px;
   background-color: #242424;
   color: #fff;
@@ -1051,13 +1059,39 @@ main .recent-orders a {
   cursor: pointer;
   transition: all 300ms ease;
 }
-.content-modal .btn-cerrar label:hover{
-  background-color:#242424;
+
+.content-modal .btn-cerrar label:hover {
+  background-color: #242424;
 }
-.cerrar-modal{
-  width:100%;
+
+.cerrar-modal {
+  width: 100%;
   height: 100vh;
   position: absolute;
-  top:0; left: 0;
+  top: 0;
+  left: 0;
   z-index: -1;
+}
+
+.btn-home {
+  color: #fff;
+  margin-top: 40px;
+  width: 6rem;
+  height: 4rem;
+  color: var(--color-dark);
+  border-radius: 4px;
+  cursor: pointer;
+  background: var(--color-white);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.btn-home:hover {
+  background: #d8d8d8;
+  color: #202528;
+}
+
+.btn-home:active {
+  background: #edf5ff;
 }

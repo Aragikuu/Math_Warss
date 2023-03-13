@@ -1,4 +1,4 @@
-@extends('layaout.plantilla')
+@extends('layaout.plantilla3')
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Categoria 4')
 @section('contenido')

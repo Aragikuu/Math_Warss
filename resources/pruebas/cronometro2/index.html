@@ -57,48 +57,60 @@
         <button onclick="resetTimer()">Reset</button>
     </body>
     <script>
-        var minutesLabel = document.querySelector(".minutes");
-        var secondsLabel = document.querySelector(".seconds");
-        var millisecondsLabel = document.querySelector(".milliseconds");
-        var startTime;
-        var elapsedTime = 0;
-        var timerInterval;
+var minutesLabel = document.querySelector(".minutes");
+var secondsLabel = document.querySelector(".seconds");
+var millisecondsLabel = document.querySelector(".milliseconds");
+var startTime;
+var elapsedTime = 0;
+var timerInterval;
+var isRunning = false;
 
-        function startTimer() {
-            startTime = Date.now() - elapsedTime;
-            timerInterval = setInterval(updateTimer, 80);
-        }
+function startTimer() {
+  if (isRunning) {
+    // Si el temporizador ya se está ejecutando, simplemente salir de la función
+    return;
+  }
 
-        function stopTimer() {
-            clearInterval(timerInterval);
-        }
+  // Establece isRunning en true para indicar que el temporizador está en ejecución
+  isRunning = true;
 
-        function resetTimer() {
-            clearInterval(timerInterval);
-            elapsedTime = 0;
-            minutesLabel.textContent = "00";
-            secondsLabel.textContent = "00";
-            millisecondsLabel.textContent = "00";
-        }
+  startTime = Date.now() - elapsedTime;
+  timerInterval = setInterval(updateTimer, 80);
+}
 
-        function updateTimer() {
-            elapsedTime = Date.now() - startTime;
+function stopTimer() {
+  clearInterval(timerInterval);
+  isRunning = false;
+}
 
-            var minutes = Math.floor(elapsedTime / 60000);
-            var seconds = Math.floor((elapsedTime % 60000) / 1000);
-            var milliseconds = elapsedTime % 100;
+function resetTimer() {
+  clearInterval(timerInterval);
+  elapsedTime = 0;
+  minutesLabel.textContent = "00";
+  secondsLabel.textContent = "00";
+  millisecondsLabel.textContent = "00";
+  isRunning = false;
+}
 
-            minutesLabel.textContent = padTime(minutes);
-            secondsLabel.textContent = padTime(seconds);
-            millisecondsLabel.textContent = padTime(milliseconds, 2);
-        }
+function updateTimer() {
+  elapsedTime = Date.now() - startTime;
 
-        function padTime(time, length = 2) {
-            var timeString = time.toString();
-            while (timeString.length < length) {
-                timeString = "0" + timeString;
-            }
-            return timeString;
-        }
+  var minutes = Math.floor(elapsedTime / 60000);
+  var seconds = Math.floor((elapsedTime % 60000) / 1000);
+  var milliseconds = elapsedTime % 100;
+
+  minutesLabel.textContent = padTime(minutes);
+  secondsLabel.textContent = padTime(seconds);
+  millisecondsLabel.textContent = padTime(milliseconds,2);
+}
+
+function padTime(time, length = 2) {
+  var timeString = time.toString();
+  while (timeString.length < length) {
+    timeString = "0" + timeString;
+  }
+  return timeString;
+}
+
     </script>
 </html>

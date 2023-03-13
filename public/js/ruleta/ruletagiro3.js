@@ -28,7 +28,12 @@ function girar() {
 dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
-    alert("TOCO :  " + SegmentoSeleccionado.text);
+    Swal.fire({
+        title: "Toco: " +  SegmentoSeleccionado.text,
+        text: "",
+        confirmButtonText: "Aceptar",
+        timer: 3000,
+    });
     if (SegmentoSeleccionado.text == "Àlgebra") {
         window.location.href = "cardo1_3";
     }

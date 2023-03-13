@@ -1,4 +1,4 @@
-@extends('layaout.plantilla')
+@extends('layaout.plantilla3')
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Categoria 5')
 @section('contenido')
@@ -18,7 +18,7 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos">+5</h3>
+      <h3 class="puntos">+20</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
@@ -34,7 +34,7 @@
 <div class="scene2 scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos" >+10</h3>
+      <h3 class="puntos" >+50</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
@@ -46,7 +46,7 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos" >+25</h3>
+      <h3 class="puntos" >+100</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>

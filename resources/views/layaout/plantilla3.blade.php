@@ -58,7 +58,7 @@
       <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
     </div>
 x -->
-<button class="btn-home"><a href="car">Regresar</a></button>
+<button class="btn-home"><a href="car3">Regresar</a></div></button>
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro"></script>

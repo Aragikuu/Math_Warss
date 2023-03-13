@@ -1,4 +1,4 @@
-@extends('layaout.plantilla')
+@extends('layaout.plantilla2')
 <script src="js/Winwheel.min.js"></script>
 <script src="js/TweenMax.min.js"></script>
 <script src="js/jQuery-2.1.4.min.js"></script>

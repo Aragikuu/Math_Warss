@@ -11,7 +11,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">1.	Hallar la ecuación de la circunferencia con radio 5 y cuyo centro está en C(0,-3)
+      <p class="texto_pregunta">Hallar la ecuación de la circunferencia con radio 5 y cuyo centro está en C(0,-3)
       </p>
       <button class="btn-blanco" onclick="modal1()">Abrir</button>
     </div>
@@ -19,11 +19,11 @@
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos">+10</h3>
+      <h3 class="puntos">+20</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Expresión algebraica que representa la siguiente función</p>
+      <p class="texto_pregunta">Hallar la ecuación de la parábola con vértice en el origen y cuya directriz es: y-5=0</p>
       <button class="btn-blanco" onclick="modal2()">Abrir</button>
     </div>
   </div>
@@ -32,25 +32,23 @@
 <div class="scene2 scene--card">
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos">+10</h3>
+      <h3 class="puntos">+50</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Hallar la ecuación de la parábola con vértice en el origen y cuya directriz es: y-5=0</p>
+      <p class="texto_pregunta">	Encontrar la intersección de las siguientes rectas: x+y=5,    3x-y=1</p>
       <button class="btn-blanco" onclick="modal3()">Abrir</button>
     </div>
   </div>
 
   <div class="card">
     <div class="card__face card__face--front">
-      <h3 class="puntos">+10</h3>
+      <h3 class="puntos">+100</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">	Encontrar la intersección de las siguientes rectas: x+y=5,    3x-y=1</p>
-      <p class="texto_pregunta">
-      Respuesta: (3/2,7/2)
-      </p>
+      <p class="texto_pregunta">	Dada la siguiente ecuación $$x^2-10x-12y+13=0$$ encontrar: el vértice, el foco, y la directriz de la parábola.</p>
+     
       <button class="btn-blanco" onclick="modal4()">Abrir</button>
     </div>
   </div>

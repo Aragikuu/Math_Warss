@@ -10,7 +10,7 @@ var miRuleta = new Winwheel({
     ],
     animation: {
         type: "spinToStop",
-        duration: 6,
+        duration: 8,
         callbackFinished: "Mensaje()",
         callbackAfter: "dibujarIndicador()",
     },
@@ -28,7 +28,13 @@ function girar() {
 dibujarIndicador();
 function Mensaje() {
     var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
-    alert("TOCO :  " + SegmentoSeleccionado.text);
+    // alert("TOCO :  " + SegmentoSeleccionado.text);
+    Swal.fire({
+        title: "Toco: " +  SegmentoSeleccionado.text,
+        text: "",
+        confirmButtonText: "Aceptar",
+        timer: 3000,
+    });
     if (SegmentoSeleccionado.text == "1") {
         window.location.href = "cardo1_3";
     }

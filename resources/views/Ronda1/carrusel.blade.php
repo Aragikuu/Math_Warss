@@ -29,7 +29,7 @@
 <div class="cuadro4">
     Estadistica Descriptiva
 </div>
-
+<button class="btn-home"><a href="car3">Ronda 3</a></button>
 @endsection
 @push('scripts')
 <script src="js/ruleta/ruletagiro.js"></script>

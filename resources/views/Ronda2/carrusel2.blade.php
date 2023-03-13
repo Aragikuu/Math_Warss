@@ -10,25 +10,25 @@
 </div>
 <input class="btn" type="button" value="Girar" onclick="miRuleta.startAnimation()">
 
-    <div class="cuadro" onclick="redireccion1_2()">
-        Algebra
-    </div>
+<div class="cuadro">
+    Álgebra
+</div>
 
-    <div class="cuadro1" onclick="redireccion2_2()">
-        Matematicas
-    </div>
+<div class="cuadro1">
+    Calculo Diferencial
+</div>
 
-    <div class="cuadro2" onclick="redireccion3_2()">
-        comida
-    </div>
+<div class="cuadro2">
+    Geometria y Tigonometria
+</div>
 
-    <div class="cuadro3" onclick="redireccion4_2()">
-        sapatos
-    </div>
+<div class="cuadro3">
+    Geometria Analitica
+</div>
 
-    <div class="cuadro4" onclick="redireccion5_2()">
-        sjjsjsjjs
-    </div>
+<div class="cuadro4">
+    Estadistica Descriptiva
+</div>
 
 @endsection
 @push('scripts')

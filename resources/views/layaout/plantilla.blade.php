@@ -28,7 +28,7 @@
   <div class="container"><!--inicio del contenedor-->
     <aside> <!--Inicio de la barra de navegacion-->
       <div class="top">
-        <div class="logo" href="">
+        <div class="logo" >
           <img src="img/utc-log.png" alt="">
           <h2>MATH-<span class="danger">WARS</span></h2>
         </div>
@@ -58,11 +58,12 @@
       <button class="iniciar" id="reset" onclick="resetTimer()">Reset</button>
     </div>
 x -->
+<button class="btn-home"><a href="car">Regresar</a></div></button>
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro"></script>
   <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-  
+
 </body>
 @yield('js')
 

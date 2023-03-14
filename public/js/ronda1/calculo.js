@@ -11,6 +11,18 @@ function modal1(){
       });
 }
 
+function modalRes(){
+    Swal.fire({
+        title: '',
+        text: '',
+        imageUrl: 'img/Ronda1/calculoD1.png',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: '',
+      });
+}
+
+
 function modal2(){
     swal( "Respuesta: Rf:[0,∞]", "" ,"success");
     

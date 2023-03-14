@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Categoria 5')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Estadística Descriptiva</h2>
+</div>
 
 <div class="scene scene--card">
 
@@ -11,7 +14,8 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta2">Un científico mide diez veces el diámetro de un cilindro y obtiene los valores 3.88, 4.09, 3.92, 3.97, 4.02, 3.95, 4.03, 3.92, 3.98 y 4.06 centímetros (cm). Hallar la media aritmética de estas mediciones.1.	Un científico mide diez veces el diámetro de un cilindro y obtiene los valores 3.88, 4.09, 3.92, 3.97, 4.02, 3.95, 4.03, 3.92, 3.98 y 4.06 centímetros (cm). Hallar la media aritmética de estas mediciones.</p>
+      <p class="texto_pregunta2">Un científico mide diez veces el diámetro de un cilindro y obtiene los valores 3.88, 4.09, 3.92, 3.97, 4.02, 3.95, 4.03, 3.92, 3.98 y 4.06 centímetros (cm). Hallar la media aritmética de estas mediciones.</p>
+      
       <button class="btn-card" onclick="modal1()">Abrir</button>
     </div>
   </div>
@@ -36,6 +40,7 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Los valores del pH sanguíneo de 32 individuos se presentan a continuación, agrupar los datos en 5 intervalos y confeccionar la tabla de frecuencias.</p>
+      <img class="imageness" src="img/calc/estRonda2.png" alt="" srcset="">
       <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
@@ -47,6 +52,7 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Calcula la media aritmética del siguiente conjunto de datos ordenados</p>
+      <img class="imageness" src="img/calc/estRonda2P4.png" alt="" srcset="">
       <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>

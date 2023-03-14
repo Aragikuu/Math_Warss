@@ -39,7 +39,6 @@
       <!--!!!!Apartir de aca ya no puden poner tablas y lo demas¡¡¡¡¡-->
       @yield('contenido')
     </main>
-    <!-- Button trigger modal -->
 
 
     <!-- Modal -->
@@ -59,6 +58,7 @@
     </div>
 x -->
 <button class="btn-home"><a href="car2">Regresar</a></div></button>
+
   </div> <!--fin delconotenedor-->
   @stack('scripts')
   <script src="js/cronometro"></script>

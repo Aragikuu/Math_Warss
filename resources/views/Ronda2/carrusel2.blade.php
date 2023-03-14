@@ -29,6 +29,7 @@
 <div class="cuadro4">
     Estadistica Descriptiva
 </div>
+<!--  -->
 
 @endsection
 @push('scripts')

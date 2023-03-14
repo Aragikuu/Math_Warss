@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Geometria y Trigonometria')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Geometría y trigonometría</h2>
+</div>
 
 <div class="scene scene--card">
   <div class="card">
@@ -23,8 +26,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">A 57 m de una barda cuya altura es de 1.5 m se pone una antena de radiodifusión, el ángulo de elevación con respecto al nivel de la altura de la barda al extremo superior de la antena es de 29° ¿Cuál es la altura h de la antena?</p>
-      <img class="imageness" src="img/geoR2/r3pregunta2.png" alt="" srcset="">
       <button class="btn-card" onclick="modal2()">Abrir</button>
+      <button class="btn-card" onclick="modal2r2()">Imagen</button>
     </div>
   </div>
 </div>
@@ -37,8 +40,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Dos perros se alejan del mismo lugar recorriendo 30 m y 43 m respectivamente. El primero con un ángulo N-E de 50° y el segundo con un ángulo S-E de 56°. ¿Cuál es la distancia entre ellos?</p>
-      <img class="imageness" src="img/geoR2/r3pregunta3.png" alt="" srcset="">
       <button class="btn-card" onclick="modal3()">Abrir</button>
+      <button class="btn-card" onclick="modal3r3()">Imagen</button>
     </div>
   </div>
 
@@ -48,8 +51,8 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Halla la altura h del edificio represen
-      <img class="imageness" src="img/geoR2/r3pregunta4.png" alt="" srcset="">tado en la imagen</p>
+      <p class="texto_pregunta">Halla la altura h del edificio representado en la imagen</p>
+      <img class="imageness" src="img/geoR2/r3pregunta4.png" alt="" srcset="">
       <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
   </div>

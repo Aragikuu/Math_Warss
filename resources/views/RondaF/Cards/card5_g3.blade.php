@@ -2,10 +2,13 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Categoria 5')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Estadística Descriptiva</h2>
+</div>
 
 <div class="scene scene--card">
 
-  <div class="card">
+  <div class="card" >
     <div class="card__face card__face--front">
       <h3 class="puntos" >+10</h3>
     </div>
@@ -13,6 +16,7 @@
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">En una clínica infantil se ha ido anotando, durante un mes, el número de metros que cada niño anda, seguido y sin caerse, el primer día que comienza a caminar, obteniéndose la tabla de información adjunta. Hallar la varianza y desviación estándar:</p>
       <button class="btn-card" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modal1r1()">Imagen</button>
     </div>
   </div>
 

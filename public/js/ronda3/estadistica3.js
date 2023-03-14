@@ -1,5 +1,24 @@
 function modal1(){
-    swal("S^2=3.09 y S=1.76 ", "", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/analR1_2.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+        
+      });
+}
+function modal1r1(){
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/estRonda3P1.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+        
+      });
 }
 
 function modal2(){
@@ -7,9 +26,25 @@ function modal2(){
 }
 
 function modal3(){
-    swal("X=53.75 Me= 54 Mo= 54.286", "", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/estRespuesta3.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+        
+      });
 }
 
 function modal4(){
-    swal("S^2=20.982 y S=4.581", "", "success");
+    Swal.fire({
+        title: 'Respuesta:',
+        text: '',
+        imageUrl: 'img/calc/estRespuesta4.png',
+        imageWidth: 300,
+        imageHeight: 200,
+        imageAlt: '',
+        
+      });
 }

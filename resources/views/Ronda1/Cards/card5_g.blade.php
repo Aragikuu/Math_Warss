@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Categoria 5')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Estadística Descriptiva</h2>
+</div>
 
 <div class="scene scene--card">
 

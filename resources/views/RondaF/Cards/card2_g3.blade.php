@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Calculo')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Cálculo Diferencial</h2>
+</div>
 
 <div class="scene scene--card">
   <div class="card">
@@ -10,7 +13,7 @@
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
-      <p class="texto_pregunta">Una jugadora de voleibol realiza un pase a su compañera, el balón fue lanzado verticalmente para tener tiempo a reubicarse, de acuerdo a los especialistas, el balón subió de acuerdo a la función f(t)=18t-3t^2, siendo 𝑡 el tiempo en segundos y f(t) la altura en metros.
+      <p class="texto_pregunta2">Una jugadora de voleibol realiza un pase a su compañera, el balón fue lanzado verticalmente para tener tiempo a reubicarse, de acuerdo a los especialistas, el balón subió de acuerdo a la función f(t)=18t-3t^2, siendo 𝑡 el tiempo en segundos y f(t) la altura en metros.
                                 En un intervalo de [0,6] ¿En qué tiempo alcanza la altura máxima?
       </p>
       <button class="btn-card" onclick="modal1()">Abrir</button>

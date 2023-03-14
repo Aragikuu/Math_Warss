@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Geometria y Trigonometria')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Geometría y trigonometría</h2>
+</div>
 
 <div class="scene scene--card" >
   <div class="card" >
@@ -49,8 +52,8 @@
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Dos edificios distan entre sí 150 m. Desde un punto que está entre los dos edificios, las visuales a los puntos más altos de éstos forman con la horizontal ángulos de 35° y 20°, respectivamente. Halla la altura de los edificios, si sabemos que los dos miden lo mismo.</p>
-      <img class="imageness" src="img/geoR2/r2pregunta4.png" alt="" srcset="">
       <button class="btn-card" onclick="modal4()">Abrir</button>
+      <button class="btn-card" onclick="modalr4()">Imagen</button>
     </div>
   </div>
 </div>

@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','algebra')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Álgebra</h2>
+</div>
 
 <div class="scene scene--card">
   <div class="card">

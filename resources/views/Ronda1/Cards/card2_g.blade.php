@@ -2,16 +2,21 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Calculo')
 @section('contenido')
- 
+<div class="recent-orders">
+  <h2>Cálculo Diferencial</h2>
+</div>
+
 <div class="scene scene--card">
-  <div class="card">
+  <div class="card" >
     <div class="card__face card__face--front">
       <h3 class="puntos">+10</h3>
     </div>
     <div class="card__face card__face--back">
       <h3 class="preguntas">Pregunta</h3>
       <p class="texto_pregunta">Se suelta un globo de observación en un punto a 10 kilómetros de la estación que recibe su señal y se eleva verticalmente como se indica en la figura. Expresa la distancia 𝑑(ℎ) entre el globo y la estación de recepción como una función de la altitud ℎ del globo.</p>
+
       <button class="btn-card" onclick="modal1()">Abrir</button>
+      <button class="btn-card" onclick="modalRes()">Imagen</button>
     </div>
   </div>
 
@@ -45,7 +50,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" >
     <div class="card__face card__face--front">
       <h3 class="puntos">+100</h3>
     </div>

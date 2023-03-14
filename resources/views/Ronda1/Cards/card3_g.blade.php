@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Geometria y Trigonometria')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Geometría y trigonometría</h2>
+</div>
 
 <div class="scene scene--card">
   <div class="card">
@@ -53,6 +56,7 @@
       <p class="texto_pregunta">Utilizando identidades trigonométricas encuentra a que identidad corresponde la siguiente expresión:</p>
       <img class="imageness" src="img/Ronda1/Geometria_4.png" alt="" srcset="">
       <button class="btn-card" onclick="modal4()">Abrir</button>
+      
     </div>
   </div>
 </div>

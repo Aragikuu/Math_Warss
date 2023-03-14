@@ -2,6 +2,9 @@
 <link rel="stylesheet" href="css/cartas/cartas.css">
 @section('titulo','Calculo')
 @section('contenido')
+<div class="recent-orders">
+  <h2>Cálculo Diferencial</h2>
+</div>
 
 <div class="scene scene--card">
   <div class="card">
@@ -51,6 +54,7 @@
       <p class="texto_pregunta">	Calcular f'(a) para la siguiente función</p>
       <p class="texto_pregunta">
         $$ f(x)=3x^2+4x+2 a=-1$$
+        $$ a=-1$$
       </p>
       <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>

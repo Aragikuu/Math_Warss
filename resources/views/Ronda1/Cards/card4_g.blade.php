@@ -36,7 +36,7 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card">
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos">+50</h3>
     </div>
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <div class="card" >
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos">+100</h3>
     </div>
@@ -61,7 +61,7 @@
       
       <button class="btn-card" onclick="modal4()">Abrir</button>
     </div>
-  </div>
+  </div> 
 
   @endsection
   @push('scripts')

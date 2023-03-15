@@ -19,7 +19,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos">+20</h3>
     </div>
@@ -44,7 +44,7 @@
       <button class="btn-card" onclick="modal3()">Abrir</button>
     </div>
   </div>
-
+ 
   <div class="card">
     <div class="card__face card__face--front">
       <h3 class="puntos">+100</h3>

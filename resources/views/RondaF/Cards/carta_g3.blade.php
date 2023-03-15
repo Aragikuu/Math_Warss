@@ -18,7 +18,7 @@
     </div>
   </div>
 
-
+ 
 
   <div class="card">
     <div class="card__face card__face--front">
@@ -33,7 +33,7 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card">
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos" >+50</h3>
     </div>

@@ -15,15 +15,15 @@
 </div>
 
 <div class="cuadro1">
-    Calculo Diferencial
+    Cálculo Diferencial
 </div>
 
 <div class="cuadro2">
-    Geometria y Tigonometria
+    Geometría y Tigonometría
 </div>
 
 <div class="cuadro3">
-    Geometria Analitica
+    Geometría Analítica
 </div>
 
 <div class="cuadro4">

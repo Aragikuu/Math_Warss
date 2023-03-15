@@ -7,7 +7,7 @@
 </div>
 
 <div class="scene scene--card">
-
+ 
   <div class="card" >
     <div class="card__face card__face--front">
       <h3 class="puntos" >+10</h3>

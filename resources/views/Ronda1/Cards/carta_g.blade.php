@@ -4,6 +4,9 @@
 @section('contenido')
 <div class="recent-orders">
   <h2>Álgebra</h2>
+
+
+
 </div>
 <div class="scene scene--card">
 
@@ -18,7 +21,7 @@
     </div>
   </div>
 
-  <div class="card">
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos">+20</h3>
     </div>
@@ -31,7 +34,7 @@
 </div>
 
 <div class="scene2 scene--card">
-  <div class="card" >
+  <div class="card" style="display:none">
     <div class="card__face card__face--front">
       <h3 class="puntos" >+50</h3>
       <!-- segun aqui habi un error

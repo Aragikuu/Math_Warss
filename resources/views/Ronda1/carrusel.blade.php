@@ -11,14 +11,14 @@
 <input class="btn" type="button" value="Girar" onclick="miRuleta.startAnimation()">
 
 <div class="cuadro">
-    Álgebra
+    Estabilidad
 </div>
 
 <div class="cuadro1">
-    Cálculo Diferencial
+    Lineamientos
 </div>
 
-<div class="cuadro2">
+<!-- <div class="cuadro2">
     Geometría y Tigonometría
 </div>
 
@@ -28,7 +28,7 @@
 
 <div class="cuadro4">
     Estadistica Descriptiva
-</div>
+</div> -->
 
 @endsection
 @push('scripts')
